@@ -2,20 +2,18 @@
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-nav>a{
-    position: fixed;
-    top: 0%;
-    margin: 23px;
 
 }
+
 nav>a>img{
     height: 47px;
     width: 48px;
 }
 nav>a{
     display: flex; /* Use flexbox layout */
+    position: fixed;
+    top: 0%;
+    margin: 23px;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-decoration: none;
@@ -23,9 +21,11 @@ nav>a{
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+
 }
 nav>a:nth-child(6){
     right: 19%;
+
 }
 
 nav>a:nth-child(5){
@@ -51,11 +51,12 @@ body>header>h3{
     top: -16px;
     right: 80%;
     font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #h3-2{
-    top: 1.9%;
-    right: 76.1%;
+    top: 2.9%;
+    right: 75.5%;
 
 }
 
@@ -69,8 +70,52 @@ body>header>h3{
 
 
 
+/*min width  kiyane e gant wada wadi unoth me style */
+/*ekek apply wenen*/
 
 
+/*max width kiyane e gant wada adunm apply wena*/
+
+
+/*@media all  and (max-width: 1024px ) {*/
+/*    nav > a:nth-child(6) {*/
+/*        right: 14%;*/
+/*    }*/
+
+/*    nav > a:nth-child(5) {*/
+/*        right: 27%;*/
+/*    }*/
+
+/*    nav > a:nth-child(4) {*/
+/*        right: 37%;*/
+/*    }*/
+
+/*    nav > a:nth-child(3) {*/
+/*        right: 51.4%;*/
+/*    }*/
+
+/*    nav > a:nth-child(2) {*/
+/*        right: 62.1%;*/
+/*    }*/
+
+/*    nav > a:nth-child(1) {*/
+/*        right: 73.9%;*/
+/*    }*/
+/*}*/
+
+#firstHand{
+    position: absolute;
+    top: 32.3%;
+    left: 20%;
+}
+#firstParagraph{
+    position: relative;
+    bottom: 941px;
+    left: 340px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 153%;
+}
 
 
 
