@@ -5,11 +5,25 @@
 
 }
 
-nav>a>img{
-    height: 47px;
-    width: 48px;
-}
+/*nav>a>img{*/
+/*    height: 47px;*/
+/*    width: 48px;*/
+/*}*/
+
 nav>a{
+
+
+}
+div>nav>a{
+    position: fixed;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-decoration: none;
+    color: #E7B10A;
+}
+body>header>div>nav{
+    z-index: 9999;
     display: flex; /* Use flexbox layout */
     position: fixed;
     top: 0%;
@@ -21,52 +35,71 @@ nav>a{
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-
 }
-nav>a:nth-child(6){
-    right: 19%;
-
-}
-
-nav>a:nth-child(5){
-    right: 29%;
-}
-nav>a:nth-child(4){
-    right: 37%;
-}
-nav>a:nth-child(3){
-    right: 47.8%;
-}
-nav>a:nth-child(2){
-    right: 56.3%;
-}
-nav>a:nth-child(1){
-    right: 66.2%;
-}
-
-
-body>header>h3{
-    position: fixed;
-    color: #E7B10A;
-    top: -16px;
-    right: 80%;
+#h3-1{
     font-size: 40px;
+   position: fixed;
+    top: -25px;
+    right: 1160px;
+    color: #E7B10A;
     font-family: 'Josefin Sans', sans-serif;
 }
+#h3-22{
+    font-size: 40px;
+    position: fixed;
+    top: 9px;
+    right: 1092px;
+    color: #E7B10A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#dLogo{
+    position: fixed;
+    top: -35px;
+    right: 1179px;
+    width: 240px;
+}
+
+
+nav>a:nth-child(6){
+    right: 278px;
+}
+nav>a:nth-child(5){
+    right: 430px;
+}
+nav>a:nth-child(4){
+    right: 547px;
+}
+nav>a:nth-child(3){
+    right: 710px;
+}
+nav>a:nth-child(2){
+
+    right: 830px;
+}
+nav>a:nth-child(1){
+    right: 980px;
+}
+
+
+
+
+/*body>header>div>h3{*/
+/*    display: flex;*/
+/*    color: #E7B10A;*/
+/*    top: -10px;*/
+/*    right: 1215px;*/
+/*    font-size: 40px;*/
+/*    font-family: 'Josefin Sans', sans-serif;*/
+/*    justify-items: self-end;*/
+/*}*/
 
 #h3-2{
-    top: 2.9%;
+    top: 1%;
     right: 75.5%;
 
 }
 
-#dLogo{
-    position: fixed;
-    top: -2%;
-    right: 82%;
-    width: 15%;
-    height: 23%;
-}
+
 
 
 
@@ -103,20 +136,55 @@ body>header>h3{
 /*    }*/
 /*}*/
 
+/*#firstHand{*/
+/*    position: absolute;*/
+/*    top: 32.3%;*/
+/*    left: 20%;*/
+/*}*/
+/*#firstParagraph{*/
+/*    position: absolute;*/
+/*    top: 29.4%;*/
+/*    left: 22.6%;*/
+/*    color: white;*/
+/*    font-family: 'Josefin Sans', sans-serif;*/
+/*    font-size: 153%;*/
+/*}*/
 #firstHand{
-    position: absolute;
-    top: 32.3%;
-    left: 20%;
+    width: 35px;
+    height: 35px;
+
 }
 #firstParagraph{
     position: relative;
-    bottom: 941px;
-    left: 340px;
+    bottom: 18px;
+    left: 10px;
+
+}
+#div1{
+    display: flex;
+    position: absolute;
+    top: 29.4%;
+    left: 19.3%;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 153%;
 }
+#myPic{
+    position: relative;
+    left: 45px;
+    bottom: 5px;
 
+    border: 5px solid darkblue;
+
+}
+
+#whatsapp,#fb,#linkding,#github,#gmail{
+position: relative;
+    left: -690px;
+    /*left: 20px;*/
+    top: 240px;
+    z-index: 9999;
+}
 
 
 
