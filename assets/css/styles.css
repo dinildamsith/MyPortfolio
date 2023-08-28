@@ -161,15 +161,10 @@ h1{
 #skill_div{
     position: relative;
     top: 650px;
+    margin-right: 30%;
 }
 
-h4{
-    color: white;
-    position: absolute;
-    top: 0%;
-    left: 20.5%;
-    font-size: 40px;
-}
+
 #skill_div>pr{
     position: absolute;
     color: white;
@@ -177,10 +172,20 @@ h4{
     top: 190%;
     font-size: 20px;
 }
+#skill_div>h4{
+
+
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 20.5%;
+    font-size: 40px;
+
+}
 
 #skill_div>img:last-child{
-    position: absolute;
-    right: 20%;
+    position:absolute;
+    right: -15%;
     top: 10%;
 
 }
@@ -196,12 +201,21 @@ h4{
 #education_div{
     position: relative;
     top: 900px;
+    margin-right: 35%;
 
+}
+#education_div>h4{
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 20.5%;
+    font-size: 40px;
 }
 #education_div>pr{
     position: relative;
     color: white;
-    left: 20.5%;
+    right: -22%;
+    left: 22vw;
     top: 99px;
     font-size: 20px;
 }
@@ -211,7 +225,7 @@ h4{
     position: relative;
     top: 15%;
     left: 15%;
-    right: 15%;
+
 }
 #education_div>pr>#education_Logo>img{
     position: relative;
@@ -226,56 +240,76 @@ h4{
 #experience_div{
     position: relative;
     top: 1100px;
-    right: 1%;
+    margin-right: 30%;
 
 }
 
 #experience_div>pr{
     position: absolute;
     color: white;
-    left: 300px;
-    bottom: -55%;
+    right: 20%;
+    left:  20%;
+    top: -2vw;
     font-size: 20px;
-    right: -26px;
+
 }
 #experience_div>#artical{
-    position: relative;
+    position: absolute;
     height: 550px;
-    top: 150px;
+    top: 15px;
     width: auto;
-   left: 256px;
+   right: -35%;
 }
 #experience_div>#group{
-    position:relative;
-    top: 150px;
-    left: 256px;
-    bottom: -210px;
+    position:absolute;
+    width: 700px;
+   top: 30vh;
+    right: 10%;
+    bottom: 110vh;
 
 
 }
 #experience_div>#ftsLogo{
     position: absolute;
-    left: 0;
-    top: 200%;
+    right: 25%;
+    top: 650px;
 }
 
-#experience_div>pr{
-    position: relative;
-  bottom: 455px;
-   right: 600vw;
+#experience_div>h4{
+    color: white;
+    position: absolute;
+    top: -10vw;
+    left: 20.5%;
+    font-size: 40px;
 }
 
-
-
-
-
-
-
+/*//////////////////////////////////////////////////////////////*/
 #vision_mission_div{
     border: 1px solid white;
     position: relative;
-    top: 1300px;
+    top: 1950px;
+    left: 0;
 }
+
+#vision_mission_div>#vision{
+    color: red;
+    position: absolute;
+    font-size: 40px;
+    left: 75%;
+}
+
+#vision_mission_div>#mission{
+    color: red;
+    position: absolute;
+    font-size: 40px;
+    right:  75%;
+    top: 0%;
+}
+
+
+
+
+
 #footer_div{
     border: 1px solid white;
     position: relative;
