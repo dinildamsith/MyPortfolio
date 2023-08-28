@@ -449,12 +449,53 @@ footer>#footer_div>div{
     top: 160px;
 }
 #imagesDiv{
+    width: 1329px;
     position: relative;
     top: 320px;
-    border: 2px solid red;
+    left: 22vh;
+
 }
+#gallery>#img1,#img2,#img3{
+   margin-top: 125px;
+}
+#gallery>#img1,#img4,#img7{
+    margin-left: 160px;
+}
+/*#imagesDiv>img:first-child{*/
+/*    bottom: 2px;*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*}*/
+/*#imagesDiv>img:nth-child(2){*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*}*/
+/*#imagesDiv>img:nth-child(3){*/
+/*    bottom: 3px;*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*}*/
+/*#imagesDiv>img:nth-child(7){*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*    bottom:  39px;*/
+/*}*/
+/*#imagesDiv>img:nth-child(5){*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*}*/
+
+/*#imagesDiv>img:nth-child(6){*/
+/*    position: relative;*/
+/*    left: 160px;*/
+/*    bottom: 18px;*/
+/*}*/
 
 
+
+#form{
+    color: white;
+}
 
 
 
