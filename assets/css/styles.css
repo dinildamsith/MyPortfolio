@@ -337,8 +337,38 @@ footer>#footer_div>div{
 
 }
 
+/*/////////////////////////////////*/
+
+#projectPage>section>div{
+    border: 1px solid red;
+    margin-left: 70px;
+    margin-top: 125px;
 
 
+}
+#projectPage>section>div>#project-1{
+
+    border: 1px solid red;
+    display: flex;
+    justify-content:start;
+
+}
+
+#projectPage>section>div>#project2{
+    border: 1px solid red;
+    display: flex;
+    justify-content:end;
+}
+#projectPage>section>div>#project3{
+    border: 1px solid red;
+    display: flex;
+    justify-content:start;
+}
+#projectPage>section>div>#project4{
+    border: 1px solid red;
+    display: flex;
+    justify-content:end;
+}
 
 
 
