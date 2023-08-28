@@ -7,6 +7,7 @@ body{
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+
 }
 
 
@@ -340,35 +341,120 @@ footer>#footer_div>div{
 /*/////////////////////////////////*/
 
 #projectPage>section>div{
-    border: 1px solid red;
     margin-left: 70px;
     margin-top: 125px;
+    color: white;
 
 
 }
 #projectPage>section>div>#project-1{
-
-    border: 1px solid red;
     display: flex;
     justify-content:start;
-
 }
 
+
 #projectPage>section>div>#project2{
-    border: 1px solid red;
     display: flex;
     justify-content:end;
 }
 #projectPage>section>div>#project3{
-    border: 1px solid red;
     display: flex;
     justify-content:start;
 }
 #projectPage>section>div>#project4{
-    border: 1px solid red;
     display: flex;
     justify-content:end;
 }
+
+
+.project-descriptionL {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+ /* Adjust the margin as needed */
+}
+
+.project-description {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 70vw;
+
+}
+#projectPage {
+    /* Add any necessary styling for the main container */
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.project a {
+    margin-bottom: 10px;
+}
+
+.project-descriptionL {
+    margin: 0;
+}
+#pg{
+    border: 1px solid black;
+}
+
+/*#projectPage>footer>h1{*/
+/*    position: absolute;*/
+/*    color: #0E144C;*/
+/*    right: 43%;*/
+/*    top: 0%;*/
+/*}*/
+
+#Assigment>div{
+    position: relative;
+    top: 195px;
+}
+#Assigment>div>div{
+    border: 2px solid red;
+    border-radius: 26px;
+    width: 650px;
+    height: 140px;
+    animation-name: assigmentDiv;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+@keyframes assigmentDiv {
+    from{
+        border-color: #ffcc00;
+    } to{
+          border-color: blue;
+
+
+      }
+}
+
+/*//////////////////////////////////////////////////////*/
+
+
+#gallery{
+    position: relative;
+    top: 160px;
+}
+#imagesDiv{
+    position: relative;
+    top: 320px;
+    border: 2px solid red;
+}
+
+
 
 
 
