@@ -40,7 +40,7 @@
             <a href="#pg">Projects</a>
             <a href="#Assigment">Assignment</a>
             <a href="#gallery">Gallery</a>
-            <a href="">Contact Us</a><br>
+            <a href="#contactUsPage">Contact Us</a><br>
 
         </nav>
 
@@ -379,62 +379,80 @@
 
 <main>
 
-    <section>
+    <section id="contactUsPage">
 
         <div id="form">
 
-            <h3>If you want to know more</h3>
 
-
-            <form>
-                <label for="name">Name</label>
-                <input type="text" placeholder="Name" id="name"><br><br>
-
-                <label for="mail">Email </label>
-                <input type="email" placeholder="dinil@gmail.com" id="mail"><br><br>
-
-                <label for="contact">Contact</label>
-                <input type="number" placeholder="071 XXXXXXX" id="contact"><br><br>
-
-                <label for="massage">Massage</label><br>
-                <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
+            <div id="txtFieldSet">
 
 
 
-            <footer>
-                <a href=""><img src="assets/img/massge.svg"></a>
-                <h2>
-                    Address<br>
-                    179/161<br>
-                    Ukwatha,<br>
-                    Avissawella<br>
-                </h2>
 
-                <h6>© Dinil Damsith. All rights reserved.</h6>
+                <form>
+
+                    <h3>If you want to know more</h3>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name"><br><br>
+
+                    <label for="mail">Email </label>
+                    <input type="email" placeholder="dinil@gmail.com" id="mail"><br><br>
+
+                    <label for="contact">Contact</label>
+                    <input type="tel" placeholder="071 XXXXXXX" id="contact"><br><br>
+
+                    <label for="massage">Massage</label><br>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+
+                    <button id="btnSubmit" type="submit">Submit</button>
+                </form>
+
+            </div>
 
 
-                <h2>
-                    <img src="assets/img/mail2.svg">
-                    Email<br>
-                    dinildamsith52@gmail.com
-                </h2>
+            <div id="contactFooter">
 
-                <h2>
-                    <img src="assets/img/contactRed.svg">
-                    Contact<br>
-                    0714430305
-                </h2>
+                <footer>
+<!--                    <a href=""><img src="assets/img/massge.svg"></a>-->
+                    <h2 id="address">
+                        Address<br>
+                        179/161<br>
+                        Ukwatha,<br>
+                        Avissawella<br>
+                    </h2>
 
-                <div>
-                    <a href=""><img src="assets/img/whatsapp_logo.svg"></a>
-                    <a herf=""><img src="assets/img/facbook.svg"></a>
-                    <a herf=""><img src="assets/img/linkding_logo.svg"></a>
-                    <a herf=""><img src="assets/img/github_logo.svg"></a>
-                </div>
-            </footer>
+                    <h6 id="end">© Dinil Damsith. All rights reserved.</h6>
+
+
+
+                    <div id="mail_contact">
+                        <h2>
+                            <img src="assets/img/mail2.svg" width="40px">
+                            Email<br>
+                            <h2 id="dinildamsith52_gmail_com">dinildamsith52@gmail.com</h2>
+
+                        </h2>
+
+                        <h2>
+                            <img src="assets/img/contactRed.svg" width="40px">
+                            Contact<br>
+                            <h2 id="number"> 0714430305</h2>
+
+                        </h2>
+
+
+                    </div>
+
+                    <div id="contactPgeSocialLinks">
+                        <a href=""><img src="assets/img/whatsapp_logo.svg"></a>
+                        <a herf=""><img src="assets/img/facbook.svg"></a>
+                        <a herf=""><img src="assets/img/linkding_logo.svg"></a>
+                        <a herf=""><img src="assets/img/github_logo.svg"></a>
+                    </div>
+                </footer>
+
+
+            </div>
 
 
 

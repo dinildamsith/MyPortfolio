@@ -491,12 +491,105 @@ footer>#footer_div>div{
 /*    bottom: 18px;*/
 /*}*/
 
+#contactUsPage{
+    position: relative;
+    margin-top: 330px;
+}
 
 
 #form{
     color: white;
 }
+#contactUsPage>#form>#txtFieldSet{
+    width: 770px;
+    position: relative;
+   left: 160px;
+    /*border: 2px solid red;*/
+    size: 45px;
+}
+#contactUsPage>#form>#txtFieldSet>form>h3{
+    position: relative;
+    bottom: 20px;
+    left: 1px;
+    font-size: 29px;
+}
 
 
+#contactUsPage>#form>#txtFieldSet>form>label{
+    font-size: 26px;
+}
+#contactUsPage>#form>#txtFieldSet>form>input{
+    position: relative;
+    width: 800px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    left: 45px;
+}
+#contact{
+    position: relative;
+   left: 41px;
+}
+#massage{
+    position: relative;
+    width: 690px;
+    height: 250px;
+    border-radius: 5px;
+    left: 41px;
+}
+#btnSubmit{
+        position: relative;
+        left: 746px;
+        bottom: 45px;
+        width: 100px;
+    border-radius: 5px;
+    height: 40px;
+}
 
+
+#contactFooter{
+    height: 250px;
+    bottom: 45px;
+    background-color: #0E144C;
+
+}
+
+
+#contactPgeSocialLinks{
+    text-align: center;
+    margin-top: -111px;
+}
+
+#mail_contact{
+    right: 200px;
+    position: relative;
+    text-align: end;
+    bottom:60px;
+}
+
+#dinildamsith52_gmail_com{
+    position: relative;
+    left: 95px;
+}
+
+#number{
+    position: relative;
+    left: 23px;
+}
+#contactFooter>footer{
+    position: relative;
+    top: -100px;
+}
+#address{
+    position: relative;
+    top: 126px;
+    left: 5%;
+}
+#end{
+    position: relative;
+    top: 196px;
+    left: 10px;
+}
 
