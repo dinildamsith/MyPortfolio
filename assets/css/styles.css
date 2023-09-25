@@ -15,7 +15,7 @@ p{
     color: white;
 }
 
-/* Navigation bar */
+/*////////////////////Navigation Bar Css //////////////////*/
 #navigation {
     position: fixed;
     top: 0;
@@ -78,7 +78,9 @@ nav a:hover::before {
 h1{
     color: white;
 }
-/*///////////////////////////home Page////////////////////////////*/
+
+
+/*///////////////////////////home Page Css////////////////////////////*/
 
 #home_Main{
     position: relative;
@@ -99,11 +101,12 @@ h1{
 #hello_hand{
     position: absolute;
     top: 210px;
-    left: 25%;
+    left: 20%;
     width: 40px;
 }
 
 #myPic{
+    width: 31%;
     position: absolute;
     right: -120px;
     top: 200px;
@@ -111,27 +114,30 @@ h1{
 #pr{
     position: absolute;
     top: 180px;
-    right: 19%;
-    left: 30%;
+    right: 1%;
+    left: 25%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 27px;
 }
 #socialLink{
     position: absolute;
-    right: 390px;
-    top: 590px;
+    right: 58%;
+    top: 490px;
 }
 #homeWord{
     position: absolute;
-    right: 47%;
+    right: 37%;
     bottom: -10px;
     font-family: 'Josefin Sans', sans-serif;
     color: #0E144C;
     letter-spacing: 20px;
 }
 
-/*///////////////////////////About me Page////////////////////////////*/
-
+/*///////////////////////////About me Page Css////////////////////////////*/
+/*#about_me_Page_Main{*/
+/*    position: relative;*/
+/*    top: 750px;*/
+/*}*/
 #about_me_Page_Main>section>#firstDev{
     position: relative;
     bottom: -500px;
@@ -139,12 +145,17 @@ h1{
 }
 #about_me_Page_Main>section>#firstDev>#myPic2{
     position: absolute;
-    right: -120px;
+    right: -115px;
     top: -300px;
+    width: 31%;
+
+}
+#myPic3{
+    display: none;
 }
 #about_me_Page_Main>section>#firstDev>#hello_hand2{
     position: absolute;
-    right: 70%;
+    right: 76%;
     top: -300px;
     width: 40px;
 }
@@ -152,8 +163,7 @@ h1{
     position: absolute;
     top: -320px;
     right: 20%;
-    left: 30%;
-
+    left: 25%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 27px;
 }
@@ -172,10 +182,9 @@ h1{
     left: 20.5%;
     top: 190%;
     font-size: 20px;
+
 }
 #skill_div>h4{
-
-
     color: white;
     position: absolute;
     top: 0%;
@@ -189,6 +198,7 @@ h1{
     right: -15%;
     top: 10%;
 
+
 }
 
 #logoSkills{
@@ -196,8 +206,6 @@ h1{
     top: 200px;
     left: 20%;
 }
-
-/*///////////////////////////////////////////////////*/
 
 #education_div{
     position: relative;
@@ -236,13 +244,10 @@ h1{
 
 }
 
-/*////////////////////////////////////////////////////////////*/
-
 #experience_div{
     position: relative;
     top: 1100px;
     margin-right: 30%;
-
 }
 
 #experience_div>pr{
@@ -284,14 +289,9 @@ h1{
     font-size: 40px;
 }
 
-/*//////////////////////////////////////////////////////////////*/
-
-
-
 #footer_div{
     position: relative;
     top: 2200px;
-
 }
 
 #vision_mission_div{
@@ -338,7 +338,7 @@ footer>#footer_div>div{
 
 }
 
-/*/////////////////////////////////*/
+/*////////////////Project Pages Css/////////////////*/
 
 #projectPage>section>div{
     margin-left: 70px;
@@ -347,6 +347,8 @@ footer>#footer_div>div{
 
 
 }
+
+
 #projectPage>section>div>#project-1{
     display: flex;
     justify-content:start;
@@ -366,7 +368,6 @@ footer>#footer_div>div{
     justify-content:end;
 }
 
-
 .project-descriptionL {
     display: flex;
     flex-direction:row;
@@ -383,10 +384,10 @@ footer>#footer_div>div{
     right: 70vw;
 
 }
-#projectPage {
-    /* Add any necessary styling for the main container */
-}
 
+[name=pgpic]{
+    width: 500px;
+}
 
 .project {
     display: flex;
@@ -406,13 +407,6 @@ footer>#footer_div>div{
 #pg{
     border: 1px solid black;
 }
-
-/*#projectPage>footer>h1{*/
-/*    position: absolute;*/
-/*    color: #0E144C;*/
-/*    right: 43%;*/
-/*    top: 0%;*/
-/*}*/
 
 #Assigment>div{
     position: relative;
@@ -441,7 +435,7 @@ footer>#footer_div>div{
       }
 }
 
-/*//////////////////////////////////////////////////////*/
+/*///////////////////////////Gallery Page Css//////////////////////////*/
 
 
 #gallery{
@@ -461,41 +455,13 @@ footer>#footer_div>div{
 #gallery>#img1,#img4,#img7{
     margin-left: 160px;
 }
-/*#imagesDiv>img:first-child{*/
-/*    bottom: 2px;*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*}*/
-/*#imagesDiv>img:nth-child(2){*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*}*/
-/*#imagesDiv>img:nth-child(3){*/
-/*    bottom: 3px;*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*}*/
-/*#imagesDiv>img:nth-child(7){*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*    bottom:  39px;*/
-/*}*/
-/*#imagesDiv>img:nth-child(5){*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*}*/
 
-/*#imagesDiv>img:nth-child(6){*/
-/*    position: relative;*/
-/*    left: 160px;*/
-/*    bottom: 18px;*/
-/*}*/
+/*//////////////////////////Contact Us Page Css////////////////*/
 
 #contactUsPage{
     position: relative;
     margin-top: 330px;
 }
-
 
 #form{
     color: white;
@@ -513,7 +479,6 @@ footer>#footer_div>div{
     left: 1px;
     font-size: 29px;
 }
-
 
 #contactUsPage>#form>#txtFieldSet>form>label{
     font-size: 26px;
@@ -593,3 +558,11 @@ footer>#footer_div>div{
     left: 10px;
 }
 
+/*//////////////     Media Quary     ////////////////////*/
+
+
+/*min width  kiyane e gant wada wadi unoth me style */
+/*ekek apply wenen*/
+
+
+/*max width kiyane e gant wada adunm apply wena*/
