@@ -169,6 +169,8 @@ h1{
 }
 
 
+
+
 #skill_div{
     position: relative;
     top: 650px;
@@ -192,6 +194,7 @@ h1{
     font-size: 40px;
 
 }
+
 
 #skill_div>img:last-child{
     position:absolute;
@@ -339,6 +342,16 @@ footer>#footer_div>div{
 }
 
 /*////////////////Project Pages Css/////////////////*/
+#project>.main>.cards>.cards_item{
+    height: 445px;
+    width: 400px;
+
+}
+#project>.main>.cards{
+    position: absolute;
+    left: 27%;
+}
+
 
 #projectPage>section>div{
     margin-left: 70px;
@@ -408,15 +421,23 @@ footer>#footer_div>div{
     border: 1px solid black;
 }
 
+/*///////////////////////////////*/
+
+#Assigment>.main>.cards{
+    position: absolute;
+    bottom: -1577%;
+}
+
 #Assigment>div{
     position: relative;
-    top: 195px;
+    top: 1848px;
 }
 #Assigment>div>div{
-    border: 2px solid red;
-    border-radius: 26px;
-    width: 650px;
-    height: 140px;
+
+
+    width: 1250px;
+    height: 240px;
+
     animation-name: assigmentDiv;
     animation-duration: 1s;
     animation-direction: alternate;
@@ -425,23 +446,27 @@ footer>#footer_div>div{
     animation-timing-function: ease-out;
     margin-bottom: 20px; /* Adjust the value as needed */
 }
-@keyframes assigmentDiv {
-    from{
-        border-color: #ffcc00;
-    } to{
-          border-color: blue;
 
 
-      }
-}
+
+
+
+
 
 /*///////////////////////////Gallery Page Css//////////////////////////*/
 
 
 #gallery{
     position: relative;
-    top: 160px;
+    top: 1916px;
+
 }
+
+.gallery{
+    position: relative;
+    top: 1922px;
+}
+
 #imagesDiv{
     width: 1329px;
     position: relative;
@@ -460,7 +485,7 @@ footer>#footer_div>div{
 
 #contactUsPage{
     position: relative;
-    margin-top: 330px;
+    margin-top: 2098px;
 }
 
 #form{

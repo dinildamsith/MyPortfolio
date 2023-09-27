@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:display="http://www.w3.org/1999/xhtml">
 <head>
 
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -20,10 +20,125 @@
     <meta name="viewport" content="width=device-width",initial-scale=1.0" >
 
     <style>
+        /* Font */
+        @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+        /* Design */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+
+
+        body {
+            color: #272727;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0;
+            padding: 1rem;
+        }
+
+        .main{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        img {
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        .btn {
+            color: #ffffff;
+            padding: 0.8rem;
+            font-size: 14px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            font-weight: 400;
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: transparent;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.12);
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cards_item {
+            display: flex;
+            padding: 1rem;
+        }
+
+        @media (min-width: 40rem) {
+            .cards_item {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 56rem) {
+            .cards_item {
+                width: 33.3333%;
+            }
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 0.25rem;
+            box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .card_content {
+            padding: 1rem;
+            background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+        }
+
+        .card_title {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin: 0px;
+        }
+
+        .card_text {
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            margin-bottom: 1.25rem;
+            font-weight: 400;
+        }
+        .made_by{
+            font-weight: 400;
+            font-size: 13px;
+            margin-top: 35px;
+            text-align: center;
+        }
     </style>
 </head>
-<body>
+
 <!--//////////////// Navigation Bar / Header ////////////////-->
 <header id="home" >
 
@@ -49,7 +164,7 @@
 
 
 <main id="#homeMain">
-    <img src="assets/img/hey.png" alt="" width="150px" id="sidePic">
+    <img src="assets/img/side.webp" alt="" width="150px" id="sidePic">
     <section >
 
 
@@ -57,7 +172,7 @@
             <img id="hello_hand" src="../assets/img/hellohand.webp"   >
 
 
-            <img id="myPic" src="../assets/img/myPic.webp"  width="300px">
+            <img id="myPic" src="../assets/img/myy.svg"  width="300px">
 
 
 
@@ -126,7 +241,7 @@
 
     <section id="aboutMePage" >
 
-        <img id="myPic3"  src="../assets/img/myPic.webp" width="300px">
+        <img id="myPic3"  src="../assets/img/myy.svg" width="300px">
 
         </div>
         <div id="firstDev">
@@ -149,7 +264,7 @@
                 difference in the world...
             </p>
 
-            <img id="myPic2"  src="../assets/img/myPic.webp" width="300px">
+            <img id="myPic2"  src="../assets/img/myy.svg" width="300px">
 
 
         </div>
@@ -270,23 +385,75 @@
 
     <section id="project">
         <div id="pg"></div>
-        <div>
 
-            <div id="project-1"><a href="https://github.com/dinildamsith/Stock-management-System"><img src="assets/img/terminal_Project.svg" width="" name="pgpic"></a>
-                <p class="project-descriptionL">First Terminal Management <br>System Project</p>
-            </div>
-            <div id="project2"><a href="https://github.com/dinildamsith/connect-four-game-assignment-main"><img src="assets/img/game_project.svg" width="" name="pgpic"></a>
-                <p class="project-description" id="">Puzzle Game Project </p>
-            </div>
-            <div id="project3"><a href="https://github.com/dinildamsith/HenHouse_Layerd_Architecture"><img src="assets/img/hen_houseProject.svg" width="" name="pgpic"></a>
-                <p class="project-descriptionL">Semester 01 First Project <br>Chicken Shop </p>
-            </div>
-            <div id="project4"><a href="https://github.com/dinildamsith/Chat_App"><img src="assets/img/chat_app.svg" width="" name="pgpic"></a>
-                <p class="project-description" id="hey">Chat App Network <br> Programming
-                </p>
-            </div>
+        <div class="main">
 
+            <ul class="cards"   >
+                <li class="cards_item" id="liss">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/terminal_Project.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Terminal First Project</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <a href="https://github.com/dinildamsith/Stock-management-System"><button class="btn card_btn">Read More</button></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card" width="100px">
+                        <div class="card_image"><img src="assets/img/game_project.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Puzzle Game Project</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <a href="https://github.com/dinildamsith/connect-four-game-assignment-main"><button class="btn card_btn">Read More</button></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/hen_houseProject.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Hen House Project</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <a href="https://github.com/dinildamsith/HenHouse_Layerd_Architecture"><button class="btn card_btn">Read More</button></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/chat_app.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Chat App Project</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <a href="https://github.com/dinildamsith/Chat_App">
+                                <button class="btn card_btn">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
         </div>
+
+
+
+<!--        <div>-->
+
+<!--            <div id="project-1"><a href="https://github.com/dinildamsith/Stock-management-System"><img src="assets/img/terminal_Project.svg" width="" name="pgpic"></a>-->
+<!--                <p class="project-descriptionL">First Terminal Management <br>System Project</p>-->
+<!--            </div>-->
+<!--            <div id="project2"><a href="https://github.com/dinildamsith/connect-four-game-assignment-main"><img src="assets/img/game_project.svg" width="" name="pgpic"></a>-->
+<!--                <p class="project-description" id="">Puzzle Game Project </p>-->
+<!--            </div>-->
+<!--            <div id="project3"><a href="https://github.com/dinildamsith/HenHouse_Layerd_Architecture"><img src="assets/img/hen_houseProject.svg" width="" name="pgpic"></a>-->
+<!--                <p class="project-descriptionL">Semester 01 First Project <br>Chicken Shop </p>-->
+<!--            </div>-->
+<!--            <div id="project4"><a href="https://github.com/dinildamsith/Chat_App"><img src="assets/img/chat_app.svg" width="" name="pgpic"></a>-->
+<!--                <p class="project-description" id="hey">Chat App Network <br> Programming-->
+<!--                </p>-->
+<!--            </div>-->
+
+<!--        </div>-->
 
     </section>
 
@@ -310,29 +477,80 @@
 <main>
     <section id="Assigment">
 
-        <div>
-            <div id="assigment1"><a href="">Assigment 01</a></div>
-            <div id="ass2"><a href="">Assigment 02</a><br></div>
-            <div><a href="">Assigment 03</a><br></div>
-            <div><a href="">Assigment 04</a><br></div>
 
+        <div class="main">
+
+            <ul class="cards">
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 01</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 02</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 03</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 04</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 05</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Assigment 06</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
+
 
 
 
 
     </section>
     <footer>
-        <h2> A S S I G E M E N T</h2>
-<!--        <div>-->
-<!--            <a href="https://wa.me/714430305"><img src="../assets/img/whatsapp_logo.webp"></a>-->
-<!--            <a href="https://www.facebook.com/dinil.damsith.391?mibextid=ZbWKwL">-->
-<!--                <img src="../assets/img/facebook_logo.webp"></a>-->
-<!--            <a href=""><img src="../assets/img/linkedin_logo.webp"></a>-->
-<!--            <a href="https://github.com/dinildamsith"><img src="../assets/img/github_logo.webp"></a>-->
-<!--            <a href="mailto:dinildamsith52@gmail.com?subject=Your%20Subject%20Here">-->
-<!--                <img src="../assets/img/gmail.webp"></a>-->
-<!--        </div>-->
+
     </footer>
 </main>
 
@@ -360,10 +578,14 @@
 
 
         </section>
+
+
+
+
     </div>
 
     <footer>
-        <h2> G A L L E R Y</h2>
+
         <div>
 <!--            <a href="https://wa.me/714430305"><img src="../assets/img/whatsapp_logo.webp"></a>-->
 <!--            <a href="https://www.facebook.com/dinil.damsith.391?mibextid=ZbWKwL">-->
