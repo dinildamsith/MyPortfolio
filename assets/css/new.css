@@ -1,13 +1,19 @@
+
 @media all  and (Max-width: 1018px ) {
+
+
     #contactUsPage>#form>#txtFieldSet>form>input {
         position: relative;
         width: 699px;
         height: 20px;
         padding: 10px;
         font-size: 16px;
-        border: 1px solid #ccc;
         border-radius: 5px;
         left: 45px;
+    }
+    #contactUsPage>#form>#txtFieldSet {
+        left: 5%;
+
     }
     #massage {
         position: relative;
@@ -32,7 +38,6 @@
         height: 20px;
         padding: 10px;
         font-size: 16px;
-        border: 1px solid #ccc;
         border-radius: 5px;
         left: 45px;
     }
@@ -52,8 +57,6 @@
         height: 40px;
     }
 }
-
-
 @media all  and (Max-width: 1130px ) {
     #skill_div>img:last-child {
         position: absolute;
@@ -83,29 +86,25 @@
 
     #experience_div>pr {
         position: absolute;
-        color: white;
         right: 29%;
         left: 20%;
         top: -2vw;
         font-size: 20px;
     }
 }
-
-@media all  and (Max-width: 1102px ) {
+@media all  and (Max-width: 1102px ){
     #vision_mission_div>#vision_pr {
-        color: white;
         position: absolute;
         top: 100px;
         left: 66%;
     }
     #vision_mission_div>#mission_pr {
-        color: white;
+
         position: absolute;
         top: 100px;
         right: 66%;
     }
 }
-
 @media all  and (Max-width: 1031px ) {
     #education_div>pr>#education_Logo {
         margin: 25px -5px;
@@ -120,7 +119,6 @@
         width: 265px;
     }
 }
-
 @media all  and (Max-width: 1046px ) {
     #pr {
         font-size: 22px;
@@ -132,7 +130,6 @@
         width: 265px;
     }
 }
-
 @media all  and (Max-width: 1000px ) {
     #education_div>pr>#education_Logo {
         margin: 20px -39px;
@@ -142,7 +139,7 @@
     }
     #skill_div>img:last-child {
         position: absolute;
-        right: -25%;
+        right: -40%;
         top: 38%;
         width: 204px;
     }
@@ -170,7 +167,66 @@
     }
 }
 
+@media all and (Max-width: 988px){
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 56%;
+        width: auto;
+    }
+    #myPic {
+        /* width: 40%; */
+        /* position: absolute; */
+        right: -181px;
+        width: 38%;
+        /* top: 200px; */
+    }
+    #pr {
+        font-size: 30px;
+        right: 4%;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        top: -299px;
+        width: 38%;
+        right: -34%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: 11%;
+        left: 20%;
+
+    }
+    #hello_hand {
+        left: 15%;
+        width: 40px;
+    }
+    #skill_div>img:last-child {
+        /* position: absolute; */
+        right: -28%;
+        top: 38%;
+        width: 204px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 20%;
+        top: 182px;
+        /* font-size: 20px; */
+    }
+    #vision_mission_div>#vision {
+        left: 73%;
+    }
+}
 @media all  and (Max-width: 917px ) {
+
+    #vision_mission_div>#mission {
+        right: 63%;
+
+    }
+    #vision_mission_div>#vision {
+        left: 71%;
+    }
     #vision_mission_div>#vision_pr {
         color: white;
         position: absolute;
@@ -183,9 +239,20 @@
         top: 100px;
         right: 59%;
     }
+
 }
 
 @media all  and (Max-width: 841px ) {
+    #education_Logo {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -18%; */
+        left: 21%;
+        /* top: 182px; */
+        /* font-size: 20px; */
+        width: 124px;
+        display: flex;
+    }
     #contactUsPage>#form>#txtFieldSet {
         width: 770px;
         position: relative;
@@ -195,7 +262,6 @@
     }
 }
 
-
 @media all  and (Max-width: 897px ) {
     #about_me_Page_Main>section>#firstDev>p {
         font-size: 23px;
@@ -204,10 +270,12 @@
     }
 
 }
-
 @media all  and (Max-width: 894px ) {
     .cards_item {
         width: 32%;
+    }
+    #mail_contact {
+        right: 120px;
     }
     #Assigment>div {
         position: relative;
@@ -215,7 +283,7 @@
     }
 
     #about_me_Page_Main>section>#firstDev>p {
-        right: 17%;
+        right: 11%;
         left: 20%;
         font-size: 24px;
     }
@@ -240,19 +308,33 @@
     }
 
 }
+
+@media all and (Max-width: 822px){
+    #hello_hand {
+        position: absolute;
+        top: 207px;
+        left: 14%;
+        width: 31px;
+    }
+    #vision_mission_div>#vision {
+        left: 67%;
+    }
+    #mail_contact {
+        right: 101px;
+    }
+}
 @media all  and (Max-width: 820px ) {
+    #mobile_navi{
+        display: block;
+    }
     #about_me_Page_Main>section>#firstDev>p {
         right: 17%;
         left: 20%;
         font-size: 22px;
     }
     #skill_div>pr {
-        position: absolute;
-        color: white;
-        left: 21.5%;
-        top: 192%;
-        font-size: 17px;
-        right: 7%;
+        font-size: 16px;
+        right: 8%;
     }
     #vision_mission_div>#vision_pr {
         color: white;
@@ -260,32 +342,56 @@
         top: 100px;
         left: 56%;
     }
+    #education_div>pr {
+        font-size: 16px;
+    }
+
 
 }
+
+
 @media all  and (Max-width: 784px ) {
+    div#links {
+        top: 60px;
+    }
+    #vision_mission_div>#vision {
+        left: 65%;
+    }
+    #experience_div>#artical {
+        top: -149px;
+        width: 262px;
+    }
+    #experience_div>#group {
+        right: -40%;
+    }
+    #experience_div>pr {
+        right: 23%;
+        left: 19%;
+    }
     #Assigment > div {
         position: relative;
         top: 1954px;
     }
-}
-@media all  and (Max-width: 784px ) {
     #education_div>pr>#education_Logo {
         margin: 15px -113px;
         position: relative;
         top: 15%;
         left: 0%;
     }
-    #vision_mission_div>#vision_pr {
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 70px;
         color: white;
-        position: absolute;
-        top: 100px;
-        left: 72%;
     }
-    #vision_mission_div>#mission_pr {
-        color: white;
-        position: absolute;
-        top: 100px;
-        right: 77%;
+    #socialLink {
+        /* position: absolute; */
+        right: 35%;
+        /* bottom: 33px; */
+    }
+    #experience_div>#ftsLogo {
+        /* position: absolute; */
+        right: 14%;
+        /* top: 650px; */
     }
     #experience_div>pr {
         position: absolute;
@@ -296,8 +402,8 @@
         font-size: 17px;
     }
 }
-@media all  and (Max-width: 712px ) {
 
+@media all  and (Max-width: 712px ) {
 
     #experience_div>#artical {
         position: absolute;
@@ -307,11 +413,6 @@
         right: -49%;
     }
     #skill_div>pr {
-        position: absolute;
-        color: white;
-        left: 21.5%;
-        top: 192%;
-        font-size: 17px;
         right: -1%;
     }
     #skill_div>img:last-child {
@@ -321,28 +422,24 @@
         width: 204px;
     }
     #vision_mission_div>#mission_pr {
-        color: white;
         position: absolute;
         top: 100px;
         right: 49%;
         font-size: 15px;
     }
     #vision_mission_div>#mission {
-        color: red;
         position: absolute;
         font-size: 32px;
         right: 65%;
         top: 11%;
     }
-    #vision_mission_div>#vision_pr {
-        color: white;
+    #vision_mission_div>#mission_pr {
         position: absolute;
         top: 100px;
-        left: 64%;
-        font-size: 12px;
+        right: 57%;
+        font-size: 15px;
     }
     #vision_mission_div>#vision {
-        color: red;
         position: absolute;
         font-size: 40px;
         left: 71%;
@@ -350,7 +447,6 @@
     }
     #experience_div>pr {
         position: absolute;
-        color: white;
         right: 20%;
         left: 21%;
         top: -2vw;
@@ -371,19 +467,170 @@
     }
 }
 @media all  and (Max-width: 887px ) {
+
+    #Assigment>div {
+        position: relative;
+        top: 1949px;
+    }
+    #gallery {
+        position: relative;
+        top: 2063px;
+        z-index: 99999;
+        left: -7%;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 2384px;
+    }
+
+    #contactUsPage>#form>#txtFieldSet {
+        width: 770px;
+        position: relative;
+        left: 5%;
+        /* border: 2px solid red; */
+        size: 45px;
+    }
     #project>.main>.cards>.cards_item {
         height: 362px;
         width: 285px;
     }
+    .main>.cards {
+        display: flex;
+        position: absolute;
+        /* left: 27%; */
+        justify-content: center;
+        left: 3%;
+    }
 }
-@media all  and (Max-width: 663px ) {
+
+@media all  and (Max-width: 666px ) {
+    #socialLink {
+        /* position: absolute; */
+        right: 31%;
+        /* bottom: 33px; */
+    }
+    #logoSkills {
+        position: relative;
+        top: 222px;
+        left: 20%;
+        /* width: 16px; */
+    }
+    #skill_div>pr {
+        right: -6%;
+    }
+    #experience_div>#ftsLogo {
+        /* position: absolute; */
+        right: 5%;
+        top: 580px;
+    }
+    #vision_mission_div>#vision_pr {
+        position: absolute;
+        top: 100px;
+        left: 61%;
+        font-size: 12px;
+    }
+    #vision_mission_div>#mission_pr {
+        position: absolute;
+        top: 100px;
+        right: 56%;
+        font-size: 13px;
+    }
+    #vision_mission_div>#mission {
+        position: absolute;
+        font-size: 32px;
+        right: 61%;
+        top: 11%;
+    }
+    #vision_mission_div>#vision {
+        position: absolute;
+        font-size: 40px;
+        left: 70%;
+        font-size: 32px;
+    }
+    footer>#footer_div>div {
+        position: absolute;
+        left: calc(50% - 115px);
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input {
+        width: 359px;
+    }
+    #massage {
+        width: 497px;
+    }
+    #experience_div>#artical {
+
+        top: 8px;
+        width: 296px;
+    }
+    #pr {
+        font-size: 25px;
+        right: -1%;
+    }
     #project>.main>.cards>.cards_item {
         height: 384px;
         width: 281px;
     }
 }
+@media all  and (Max-width: 621px ) {
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        top: -299px;
+        width: 38%;
+        right: -45%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: -4%;
+    }
+    #experience_div>#ftsLogo {
+        /* position: absolute; */
+        right: 8%;
+        top: 555px;
+    }
+    #mail_contact {
+        right: 101px;
+        font-size: 14px;
+    }
+    #contactPgeSocialLinks {
+        text-align: center;
+        margin-top: -67px;
+        margin-left: 55%;
+        left: 10%;
+        /* width: 46px; */
+        /* display: inline-table; */
+    }
+    #experience_div>pr {
+        right: 28%;
+        left: 20%;
+    }
+    #experience_div>#artical {
+        top: 27px;
+        width: 259px;
+    }
+}
+@media all  and (Max-width: 635px ) {
+    #Assigment>div {
+        position: relative;
+        top: 1534px;
+    }
+    #gallery {
+        position: relative;
+        top: 2217px;
+        z-index: 99999;
+        left: -7%;
+    }
+    #experience_div>#artical {
+        top: 53px;
+        width: 225px;
+        right: -33%;
+    }
+    .cards_item {
+        width: 46%;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 2056px;
+    }
 
-
+}
 
 @media all  and (Max-width: 651px ) {
     #project>.main>.cards>.cards_item {
@@ -391,17 +638,49 @@
         width: 259px;
     }
 }
+
 @media all  and (Max-width: 589px ) {
     #project>.main>.cards>.cards_item {
         height: 384px;
         width: 238px;
     }
 }
-
 @media all  and (Max-width: 562px ) {
     #Assigment>div {
         position: relative;
-        top: 2438px;
+        top: 1984px;
+    }
+    #experience_div>#artical {
+        top: 47px;
+        width: 235px;
+        right: -37%;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 42%;
+        /* width: 46px; */
+        /* display: inline-table; */
+    }
+}
+
+@media all  and (Max-width: 550px ) {
+    #Assigment>div {
+        position: relative;
+        top: 1734px;
+    }
+
+}
+@media all  and (Max-width: 549px ) {
+    #Assigment>div {
+        position: relative;
+        top: 1948px;
+    }
+
+}
+
+@media all  and (Max-width: 520px ) {
+    #Assigment>div {
+        position: relative;
+        top: 1884px;
     }
 }
 
@@ -410,50 +689,69 @@
 
 
 
-@media all  and (Max-width: 434px ) {
+
+@media all  and (Max-width: 479px ) {
+
+    #mobile_gallery{
+        display: block;
+    }
+
     #myPic {
         width: 53%;
         position: absolute;
-        right: -7%;
-        top: 33px;
+        right: calc(50% - 53%);
+        top: 93px;
     }
     #pr {
         position: absolute;
-        top: 185px;
-        right: -12%;
-        left: 21%;
+        top: 265px;
+        right: -25%;
+        left: 17%;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 19.5px;
+        font-size: 17px;
+        text-align: center;
+    }
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 57%;
+        width: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        /* position: absolute; */
+        right: calc(50% - 53%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2 {
+        display: none;
     }
     #hello_hand {
-        position: absolute;
-        top: 201px;
-        left: 6%;
-        width: 31px;
+        display: none;
     }
     #socialLink {
         position: absolute;
-        right: 16%;
+        right: 21%;
         bottom: 11px;
     }
-
     #about_me_Page_Main>section>#firstDev>#myPic2 {
         position: absolute;
-        right: -6%;
+        right: calc(50% - 48%);
         top: -484px;
         width: 53%;
     }
     #about_me_Page_Main>section>#firstDev>p {
-        right: -51%;
-        left: 21%;
-        font-size: 19.5px;
+        right: -36%;
+        left: 7%;
+        font-size: 18.5px;
+        text-align: center;
     }
     #skill_div>h4 {
-        color: white;
-        position: absolute;
+        /* position: absolute; */
         top: -11px;
-        left: 20.5%;
-        font-size: 40px;
+        left: 48%;
+        font-size: 36px;
     }
 
     #skill_div {
@@ -462,117 +760,144 @@
         margin-right: 32%;
     }
     #skill_div>pr {
-        position: absolute;
-        color: white;
-        left: 21.5%;
+        /* position: absolute; */
+        /* left: 21.5%; */
         top: 97px;
-        font-size: 17px;
-        right: -55%;
+        font-size: 14px;
+        right: -43%;
+        text-align: center;
+        left: 9%;
     }
     #logoSkills {
         position: relative;
-        top: 247px;
+        top: 194px;
         left: 20%;
     }
-
-
     #skill_div>img:last-child {
         position: absolute;
-        right: -13%;
-        top: 296px;
+        right: -6%;
+        top: 283px;
         width: 204px;
     }
 
-    #education_div>pr>#education_Logo {
-        margin: -1px -61px;
+    #education_Logo {
         position: relative;
-        top: 14%;
-        left: 37%;
-        width: 115px;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+        display: flow;
+    }
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 144px;
+        color: white;
     }
     #experience_div>pr {
         position: absolute;
-        color: white;
+
         right: -49%;
         left: 22%;
         top: -6px;
         font-size: 19.5px;
     }
     #experience_div>#artical {
-        position: absolute;
-        height: 668px;
+        /* position: absolute; */
+        /* height: 668px; */
         top: 119px;
         width: 324px;
         right: -23%;
-        width: 239px;
+        /* width: 239px; */
     }
     #experience_div>#group {
-        position: absolute;
-        width: 351px;
-        top: 627px;
-        right: -29%;
-        bottom: 110vh;
+        /* position: absolute; */
+        /* width: 351px; */
+        top: 634px;
+        right: -23%;
+        /* bottom: 110vh; */
     }
     #education_div>h4 {
-        color: white;
+        left: 25.5%;
+    }
+    #education_div {
+        /* position: relative; */
+        /* top: 900px; */
+        /* margin-right: 35%; */
+        text-align: center;
+    }
+    #education_div>pr {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -22%; */
+        left: 29%;
+        top: 120px;
+        font-size: 15px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+    }
+    #experience_div>h4 {
+        left: 27%;
+        font-size: 33px;
+    }
+    #experience_div>pr {
         position: absolute;
-        top: -10px;
-        left: 20.5%;
-        font-size: 40px;
+        right: -24%;
+        /* left: -6%; */
+        top: -14px;
+        font-size: 16.5px;
+        text-align: center;
     }
     #experience_div>#ftsLogo {
-        position: absolute;
-        right: 0%;
-        top: 822px;
+        right: 9%;
+        top: 818px;
         width: 122px;
     }
     #vision_mission_div {
-        position: relative;
-        top: 2087px;
-        left: 0;
+        /* position: relative; */
+        top: 2167px;
+        /* left: 0; */
     }
     footer>#footer_div>div {
-        position: absolute;
-        top: 181px;
-        left: calc(50% - 100px);
+        /* position: absolute; */
+        top: 322px;
+        left: calc(50% - 123px);
     }
+
     #vision_mission_div>#mission {
-        color: red;
-        position: absolute;
-        font-size: 34px;
-        right: 35%;
-        top: 16%;
+        right: 30%;
     }
     #vision_mission_div>#mission_pr {
-        color: white;
-        position: absolute;
-        top: 96px;
-        right: 11%;
-        font-size: 15px;
+        right: 22%;
+        font-size: 14px;
+        text-align: center;
     }
     #vision_mission_div>#vision {
-        color: red;
-        position: absolute;
-        font-size: 40px;
-        left: 71%;
-        font-size: 32px;
-        top: 129px;
-        left: 157px;
+        top: 147px;
+        left: 31%;
     }
     #vision_mission_div>#vision_pr {
-        color: white;
-        position: absolute;
-        top: 215px;
-        left: 15%;
-        font-size: 12px;
+        /* position: absolute; */
+        top: 238px;
+        left: 11%;
+        font-size: 14px;
+        text-align: center;
     }
     .cards_item {
-        width: 49%;
-        height: 187px;
+        width: 50%;
+        height: 194px;
     }
     #Assigment>div {
         position: relative;
-        top: 2146px;
+        top: 2242px;
     }
     #gallery {
         position: relative;
@@ -585,7 +910,6 @@
         height: 16px;
         padding: 10px;
         font-size: 16px;
-        border: 1px solid #ccc;
         border-radius: 5px;
         left: 45px;
     }
@@ -599,7 +923,7 @@
     #project>.main>.cards {
         display: flex;
         position: absolute;
-        left: -1%;
+        left: 2%;
         justify-content: center;
     }
 
@@ -608,18 +932,27 @@
     }
     #mobile_gallery {
         position: relative;
-        top: 2260px;
+        top: 2334px;
         left: 20%;
     }
     #contactUsPage {
         position: relative;
         margin-top: 2360px;
     }
+    #contactUsPage>#form>#txtFieldSet>form>h3 {
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+        font-size: 20px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>label {
+        font-size: 15px;
+    }
     #contactFooter {
         height: 448px;
         width: auto;
         bottom: 45px;
-        background-color: #0E144C;
+
     }
     #contactPgeSocialLinks {
         text-align: center;
@@ -631,15 +964,1223 @@
         left: 10px;
     }
     #mail_contact {
-        right: 159px;
+        right: 37%;
         position: relative;
         text-align: end;
         bottom: 48px;
     }
     #address {
+        /* position: relative; */
+        top: 321px;
+        left: 4%;
+        text-align: center;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 0%;
+    }
+}
+@media all  and (Max-width: 456px ) {
+
+    #mobile_gallery{
+        display: block;
+    }
+
+    #myPic {
+        width: 53%;
+        position: absolute;
+        right: calc(50% - 53%);
+        top: 93px;
+    }
+    #pr {
+        position: absolute;
+        top: 265px;
+        right: -25%;
+        left: 17%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 57%;
+        width: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        /* position: absolute; */
+        right: calc(50% - 53%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2 {
+        display: none;
+    }
+    #hello_hand {
+        display: none;
+    }
+    #socialLink {
+        position: absolute;
+        right: 19%;
+        bottom: 11px;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        position: absolute;
+        right: calc(50% - 48%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: -36%;
+        left: 7%;
+        font-size: 18.5px;
+        text-align: center;
+    }
+    #skill_div>h4 {
+        /* position: absolute; */
+        top: -11px;
+        left: 48%;
+        font-size: 36px;
+    }
+
+    #skill_div {
         position: relative;
-        top: 320px;
-        left: 37%;
+        top: 496px;
+        margin-right: 32%;
+    }
+    #skill_div>pr {
+        /* position: absolute; */
+        /* left: 21.5%; */
+        top: 97px;
+        font-size: 14px;
+        right: -43%;
+        text-align: center;
+        left: 9%;
+    }
+    #logoSkills {
+        position: relative;
+        top: 194px;
+        left: 20%;
+    }
+
+    #skill_div>img:last-child {
+        position: absolute;
+        right: -13%;
+        top: 296px;
+        width: 204px;
+    }
+
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+        display: flow;
+    }
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 144px;
+        color: white;
+    }
+    #experience_div>pr {
+        position: absolute;
+
+        right: -49%;
+        left: 22%;
+        top: -6px;
+        font-size: 19.5px;
+    }
+    #experience_div>#artical {
+        /* position: absolute; */
+        /* height: 668px; */
+        top: 119px;
+        width: 324px;
+        right: -23%;
+        /* width: 239px; */
+    }
+    #experience_div>#group {
+        /* position: absolute; */
+        /* width: 351px; */
+        top: 627px;
+        right: -24%;
+        /* bottom: 110vh; */
+    }
+    #education_div>h4 {
+        /* position: absolute; */
+        /* top: -10px; */
+        left: 26.5%;
+        font-size: 33px;
+    }
+    #education_div {
+        /* position: relative; */
+        /* top: 900px; */
+        /* margin-right: 35%; */
+        text-align: center;
+    }
+    #education_div>pr {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -22%; */
+        left: 29%;
+        top: 120px;
+        font-size: 15px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+    }
+    #experience_div>h4 {
+        left: 17%;
+        font-size: 33px;
+    }
+    #experience_div>pr {
+        position: absolute;
+        right: -24%;
+        /* left: -6%; */
+        top: -14px;
+        font-size: 16.5px;
+        text-align: center;
+    }
+    #experience_div>#ftsLogo {
+        right: 1%;
+        top: 803px;
+        width: 122px;
+    }
+    #vision_mission_div {
+        /* position: relative; */
+        top: 2167px;
+        /* left: 0; */
+    }
+    footer>#footer_div>div {
+        /* position: absolute; */
+        top: 322px;
+        left: calc(50% - 123px);
+    }
+
+
+    #vision_mission_div>#mission {
+        right: 27%;
+    }
+    #vision_mission_div>#mission_pr {
+        right: 20%;
+        font-size: 12px;
+        text-align: center;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 31%;
+    }
+    #vision_mission_div>#vision_pr {
+        /* position: absolute; */
+        top: 238px;
+        left: 13%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .cards_item {
+        width: 50%;
+        height: 194px;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 2242px;
+    }
+    #gallery {
+        position: relative;
+        top: 2042px;
+        z-index: 99999;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input {
+        position: relative;
+        width: 185px;
+        height: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        left: 45px;
+    }
+    #massage {
+        position: relative;
+        width: 276px;
+        height: 175px;
+        border-radius: 5px;
+        left: -3px;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 2%;
+        justify-content: center;
+    }
+
+    #gallery{
+        display: none;
+    }
+    #mobile_gallery {
+        position: relative;
+        top: 2334px;
+        left: 20%;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 2360px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>h3 {
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+        font-size: 20px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>label {
+        font-size: 15px;
+    }
+    #contactFooter {
+        height: 448px;
+        width: auto;
+        bottom: 45px;
+
+    }
+    #contactPgeSocialLinks {
+        text-align: center;
+        margin-top: 114px;
+    }
+    #end {
+        position: relative;
+        top: 397px;
+        left: 10px;
+    }
+    #mail_contact {
+        right: 37%;
+        position: relative;
+        text-align: end;
+        bottom: 48px;
+    }
+    #address {
+        /* position: relative; */
+        top: 321px;
+        left: 4%;
+        text-align: center;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 0%;
     }
 }
 
+@media all  and (Max-width: 434px ) {
+
+    #mobile_gallery{
+        display: block;
+    }
+
+    #myPic {
+        width: 53%;
+        position: absolute;
+        right: calc(50% - 46%);
+        top: 93px;
+    }
+    #pr {
+        position: absolute;
+        top: 265px;
+        right: -25%;
+        left: 17%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 57%;
+        width: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        /* position: absolute; */
+        right: calc(50% - 53%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2 {
+    display: none;
+    }
+    #hello_hand {
+     display: none;
+    }
+    #socialLink {
+        position: absolute;
+        right: 19%;
+        bottom: 11px;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        position: absolute;
+        right: calc(50% - 48%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: -36%;
+        left: 7%;
+        font-size: 18.5px;
+        text-align: center;
+    }
+    #skill_div>h4 {
+        /* position: absolute; */
+        top: -11px;
+        left: 48%;
+        font-size: 36px;
+    }
+
+    #skill_div {
+        position: relative;
+        top: 496px;
+        margin-right: 32%;
+    }
+    #skill_div>pr {
+        /* position: absolute; */
+        /* left: 21.5%; */
+        top: 97px;
+        font-size: 14px;
+        right: -43%;
+        text-align: center;
+        left: 9%;
+    }
+    #logoSkills {
+        position: relative;
+        top: 194px;
+        left: 20%;
+    }
+
+    #skill_div>img:last-child {
+        position: absolute;
+        right: -13%;
+        top: 296px;
+        width: 204px;
+    }
+
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+        display: flow;
+    }
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 144px;
+        color: white;
+    }
+    #experience_div>pr {
+        position: absolute;
+
+        right: -49%;
+        left: 22%;
+        top: -6px;
+        font-size: 19.5px;
+    }
+    #experience_div>#artical {
+        /* position: absolute; */
+        /* height: 668px; */
+        top: 119px;
+        width: 324px;
+        right: -23%;
+        /* width: 239px; */
+    }
+    #experience_div>#group {
+        /* position: absolute; */
+        /* width: 351px; */
+        top: 627px;
+        right: -24%;
+        /* bottom: 110vh; */
+    }
+    #education_div>h4 {
+        /* position: absolute; */
+        /* top: -10px; */
+        left: 26.5%;
+        font-size: 33px;
+    }
+    #education_div {
+        /* position: relative; */
+        /* top: 900px; */
+        /* margin-right: 35%; */
+        text-align: center;
+    }
+    #education_div>pr {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -22%; */
+        left: 29%;
+        top: 120px;
+        font-size: 15px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+    }
+    #experience_div>h4 {
+        left: 17%;
+        font-size: 33px;
+    }
+    #experience_div>pr {
+        position: absolute;
+        right: -24%;
+        /* left: -6%; */
+        top: -14px;
+        font-size: 16.5px;
+        text-align: center;
+    }
+    #experience_div>#ftsLogo {
+        right: 1%;
+        top: 803px;
+        width: 122px;
+    }
+    #vision_mission_div {
+        /* position: relative; */
+        top: 2167px;
+        /* left: 0; */
+    }
+    footer>#footer_div>div {
+        /* position: absolute; */
+        top: 322px;
+        left: calc(50% - 123px);
+    }
+
+
+    #vision_mission_div>#mission {
+        right: 24%;
+    }
+    #vision_mission_div>#mission_pr {
+        right: 20%;
+        font-size: 12px;
+        text-align: center;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 31%;
+    }
+    #vision_mission_div>#vision_pr {
+        /* position: absolute; */
+        top: 238px;
+        left: 13%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .cards_item {
+        width: 50%;
+        height: 194px;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 2242px;
+    }
+    #gallery {
+        position: relative;
+        top: 2042px;
+        z-index: 99999;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input {
+        position: relative;
+        width: 185px;
+        height: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        left: 45px;
+    }
+    #massage {
+        position: relative;
+        width: 276px;
+        height: 175px;
+        border-radius: 5px;
+        left: -3px;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 2%;
+        justify-content: center;
+    }
+
+    #gallery{
+        display: none;
+    }
+    #mobile_gallery {
+        position: relative;
+        top: 2334px;
+        left: 20%;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 2360px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>h3 {
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+        font-size: 20px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>label {
+        font-size: 15px;
+    }
+    #contactFooter {
+        height: 448px;
+        width: auto;
+        bottom: 45px;
+
+    }
+    #contactPgeSocialLinks {
+        text-align: center;
+        margin-top: 114px;
+    }
+    #end {
+        position: relative;
+        top: 397px;
+        left: 10px;
+    }
+    #mail_contact {
+        right: 37%;
+        position: relative;
+        text-align: end;
+        bottom: 48px;
+    }
+    #address {
+        /* position: relative; */
+        top: 321px;
+        left: 4%;
+        text-align: center;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 0%;
+    }
+}
+
+@media all  and (Max-width: 390px ) {
+
+    #mobile_gallery{
+        display: block;
+    }
+
+    #myPic {
+        right: calc(50% - 51%);
+    }
+    #pr {
+        position: absolute;
+        top: 265px;
+        right: -25%;
+        left: 17%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 57%;
+        width: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        /* position: absolute; */
+        right: calc(50% - 53%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2 {
+        display: none;
+    }
+    #hello_hand {
+        display: none;
+    }
+    #socialLink {
+        right: 14%;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        position: absolute;
+        right: calc(50% - 48%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: -36%;
+        left: 7%;
+        font-size: 18.5px;
+        text-align: center;
+    }
+    #skill_div>h4 {
+        left: 45%;
+    }
+
+    #skill_div {
+        position: relative;
+        top: 496px;
+        margin-right: 32%;
+    }
+    #skill_div>pr {
+        /* position: absolute; */
+        /* left: 21.5%; */
+        top: 97px;
+        font-size: 14px;
+        right: -43%;
+        text-align: center;
+        left: 9%;
+    }
+    #experience_div>h4 {
+        left: 15%;
+        font-size: 33px;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 29%;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 7%;
+        justify-content: center;
+    }
+    #logoSkills {
+        position: relative;
+        top: 194px;
+        left: 20%;
+    }
+
+    #skill_div>img:last-child {
+        position: absolute;
+        right: -13%;
+        top: 296px;
+        width: 204px;
+    }
+
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        left: 56%;
+        right: -22%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+        display: flow;
+    }
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 144px;
+        color: white;
+    }
+    #experience_div>pr {
+        position: absolute;
+
+        right: -49%;
+        left: 22%;
+        top: -6px;
+        font-size: 19.5px;
+    }
+    #experience_div>#artical {
+        /* position: absolute; */
+        /* height: 668px; */
+        top: 119px;
+        width: 324px;
+        right: -23%;
+        /* width: 239px; */
+    }
+    #experience_div>#group {
+        /* position: absolute; */
+        /* width: 351px; */
+        top: 627px;
+        right: -24%;
+        /* bottom: 110vh; */
+    }
+    #education_div>h4 {
+        /* position: absolute; */
+        /* top: -10px; */
+        left: 26.5%;
+        font-size: 33px;
+    }
+    #education_div {
+        /* position: relative; */
+        /* top: 900px; */
+        /* margin-right: 35%; */
+        text-align: center;
+    }
+    #education_div>pr {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -22%; */
+        left: 29%;
+        top: 120px;
+        font-size: 15px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+    }
+    #experience_div>h4 {
+        left: 17%;
+        font-size: 33px;
+    }
+    #experience_div>pr {
+        position: absolute;
+        right: -24%;
+        /* left: -6%; */
+        top: -14px;
+        font-size: 16.5px;
+        text-align: center;
+    }
+    #experience_div>#ftsLogo {
+        right: 1%;
+        top: 803px;
+        width: 122px;
+    }
+    #vision_mission_div {
+        /* position: relative; */
+        top: 2167px;
+        /* left: 0; */
+    }
+    footer>#footer_div>div {
+        /* position: absolute; */
+        top: 322px;
+        left: calc(50% - 123px);
+    }
+
+
+    #vision_mission_div>#mission {
+        right: 24%;
+    }
+    #vision_mission_div>#mission_pr {
+        right: 20%;
+        font-size: 12px;
+        text-align: center;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 31%;
+    }
+    #vision_mission_div>#vision_pr {
+        /* position: absolute; */
+        top: 238px;
+        left: 13%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .cards_item {
+        width: 50%;
+        height: 194px;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 2242px;
+    }
+    #gallery {
+        position: relative;
+        top: 2042px;
+        z-index: 99999;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input {
+        position: relative;
+        width: 185px;
+        height: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        left: 45px;
+    }
+    #massage {
+        position: relative;
+        width: 276px;
+        height: 175px;
+        border-radius: 5px;
+        left: -3px;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 2%;
+        justify-content: center;
+    }
+
+    #gallery{
+        display: none;
+    }
+    #mobile_gallery {
+        position: relative;
+        top: 2334px;
+        left: 20%;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 2360px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>h3 {
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+        font-size: 20px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>label {
+        font-size: 15px;
+    }
+    #contactFooter {
+        height: 448px;
+        width: auto;
+        bottom: 45px;
+
+    }
+    #contactPgeSocialLinks {
+        text-align: center;
+        margin-top: 114px;
+    }
+    #end {
+        position: relative;
+        top: 397px;
+        left: 10px;
+    }
+    #mail_contact {
+        right: 37%;
+        position: relative;
+        text-align: end;
+        bottom: 48px;
+    }
+    #address {
+        /* position: relative; */
+        top: 321px;
+        left: 4%;
+        text-align: center;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 0%;
+    }
+}
+@media all  and (Max-width: 378px ) {
+
+    #mobile_gallery{
+        display: block;
+    }
+
+    #myPic {
+        right: calc(50% - 51%);
+    }
+    #pr {
+        position: absolute;
+        top: 265px;
+        right: -25%;
+        left: 17%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 57%;
+        width: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        position: absolute;
+        right: calc(50% - 48%);
+        top: -449px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2 {
+        display: none;
+    }
+    #hello_hand {
+        display: none;
+    }
+    #socialLink {
+        right: 14%;
+    }
+    #about_me_Page_Main>section>#firstDev>#myPic2 {
+        position: absolute;
+        right: calc(50% - 48%);
+        top: -484px;
+        width: 53%;
+    }
+    #about_me_Page_Main>section>#firstDev>p {
+        right: -36%;
+        left: 7%;
+        font-size: 18.5px;
+        text-align: center;
+    }
+    #skill_div>h4 {
+        left: 45%;
+    }
+
+    #skill_div {
+        position: relative;
+        top: 496px;
+        margin-right: 32%;
+    }
+    #skill_div>pr {
+        /* position: absolute; */
+        /* left: 21.5%; */
+        top: 97px;
+        font-size: 14px;
+        right: -43%;
+        text-align: center;
+        left: 9%;
+    }
+    #experience_div>h4 {
+        left: 15%;
+        font-size: 33px;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 29%;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 7%;
+        justify-content: center;
+    }
+    #logoSkills {
+        position: relative;
+        top: 194px;
+        left: 20%;
+    }
+
+    #skill_div>img:last-child {
+        position: absolute;
+        right: -13%;
+        top: 296px;
+        width: 204px;
+    }
+
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        left: 56%;
+        right: -22%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+        display: flow;
+    }
+    #projectPage>section>div {
+        margin-left: 70px;
+        margin-top: 144px;
+        color: white;
+    }
+    #experience_div>pr {
+        position: absolute;
+
+        right: -49%;
+        left: 22%;
+        top: -6px;
+        font-size: 19.5px;
+    }
+    #experience_div>#artical {
+        /* position: absolute; */
+        /* height: 668px; */
+        top: 119px;
+        width: 324px;
+        right: -23%;
+        /* width: 239px; */
+    }
+    #experience_div>#group {
+        /* position: absolute; */
+        /* width: 351px; */
+        top: 627px;
+        right: -24%;
+        /* bottom: 110vh; */
+    }
+    #education_div>h4 {
+        /* position: absolute; */
+        /* top: -10px; */
+        left: 26.5%;
+        font-size: 33px;
+    }
+    #education_div {
+        /* position: relative; */
+        /* top: 900px; */
+        /* margin-right: 35%; */
+        text-align: center;
+    }
+    #education_div>pr {
+        /* position: relative; */
+        /* color: white; */
+        /* right: -22%; */
+        left: 29%;
+        top: 120px;
+        font-size: 15px;
+    }
+    #education_Logo {
+        position: relative;
+        /* color: white; */
+        right: -22%;
+        left: 58%;
+        top: 182px;
+        /* font-size: 20px; */
+        width: 108px;
+    }
+    #experience_div>h4 {
+        left: 17%;
+        font-size: 33px;
+    }
+    #experience_div>pr {
+        position: absolute;
+        right: -24%;
+        /* left: -6%; */
+        top: -14px;
+        font-size: 16.5px;
+        text-align: center;
+    }
+    #experience_div>#ftsLogo {
+        right: 1%;
+        top: 803px;
+        width: 122px;
+    }
+    #vision_mission_div {
+        /* position: relative; */
+        top: 2167px;
+        /* left: 0; */
+    }
+    footer>#footer_div>div {
+        /* position: absolute; */
+        top: 322px;
+        left: calc(50% - 123px);
+    }
+
+
+    #vision_mission_div>#mission {
+        right: 24%;
+    }
+    #vision_mission_div>#mission_pr {
+        right: 20%;
+        font-size: 12px;
+        text-align: center;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 31%;
+    }
+    #vision_mission_div>#vision_pr {
+        /* position: absolute; */
+        top: 238px;
+        left: 13%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .cards_item {
+        width: 50%;
+        height: 194px;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 2242px;
+    }
+    #gallery {
+        position: relative;
+        top: 2042px;
+        z-index: 99999;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input {
+        position: relative;
+        width: 185px;
+        height: 16px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        left: 45px;
+    }
+    #massage {
+        position: relative;
+        width: 276px;
+        height: 175px;
+        border-radius: 5px;
+        left: -3px;
+    }
+    #project>.main>.cards {
+        display: flex;
+        position: absolute;
+        left: 2%;
+        justify-content: center;
+    }
+
+    #gallery{
+        display: none;
+    }
+    #mobile_gallery {
+        position: relative;
+        top: 2334px;
+        left: 20%;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 2360px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>h3 {
+        position: relative;
+        bottom: 20px;
+        left: 1px;
+        font-size: 20px;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>label {
+        font-size: 15px;
+    }
+    #contactFooter {
+        height: 448px;
+        width: auto;
+        bottom: 45px;
+
+    }
+    #contactPgeSocialLinks {
+        text-align: center;
+        margin-top: 114px;
+    }
+    #end {
+        position: relative;
+        top: 397px;
+        left: 10px;
+    }
+    #mail_contact {
+        right: 37%;
+        position: relative;
+        text-align: end;
+        bottom: 48px;
+    }
+    #address {
+        /* position: relative; */
+        top: 321px;
+        left: 4%;
+        text-align: center;
+    }
+    #contactPgeSocialLinks {
+        margin-left: 0%;
+    }
+}
+@media all  and (Max-width: 377px ) {
+    #vision_mission_div>#mission {
+        right: 19%;
+    }
+    #vision_mission_div>#vision {
+        top: 147px;
+        left: 29%;
+    }
+    #vision_mission_div>#vision_pr {
+        left: 10%;
+    }
+    #vision_mission_div>#mission_pr {
+        right: 15%;
+    }
+}

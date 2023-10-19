@@ -10,12 +10,18 @@
     <link rel="stylesheet" href="/assets/css/new.css">
     <link rel="stylesheet" href="assets/css/galery css.css">
     <link rel="stylesheet" href="assets/css/pictureAnimatedCss.css">
+    <link rel="stylesheet" href="assets/css/mobile_navigation_css.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
 
 
     <meta charset="UTF-8">
@@ -166,8 +172,25 @@
 
         </nav>
 
+
+        </div>
+
     </div>
 
+    <div id="mobile_navi">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#about_me_Page_Main">About</a>
+            <a href="#pg">Projects</a>
+            <a href="#ag">Assignment</a>
+            <a href="#">Gallery</a>
+            <a href="#contactUsPage">Contact Us</a>
+        </div>
+
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer; color: white" onclick="openNav()">&#9776; #Dinil Damsith</span>
+        </div>
 </header>
 
 <!--///////////////////  Home Page //////////////////////////////////////////-->
@@ -304,15 +327,16 @@
                     For my primary education, I went to Seethawaka Central College<br>
                     And joined 2022 as a student of Institute of Software Engineering (IJSE) after o/l exam.<br>
 
-                    <div id="education_Logo">
-                        <img id="seethawak" src="../assets/img/SeethawakaLogo.webp" width="150">
-                        <img src="../assets/img/ijse_logo.webp" width="150">
-                        <img src="../assets/img/java_insituteLogo.webp" width="150">
-
-                    </div>
-
 
                 </pr>
+                <div id="education_Logo">
+                    <img id="seethawak" src="../assets/img/SeethawakaLogo.webp" width="150" radius="90px">
+                    <img src="../assets/img/ijse_logo.webp" width="150">
+                    <img src="../assets/img/java_insituteLogo.webp" width="150">
+
+                </div>
+
+
             </div>
 
 
@@ -453,7 +477,7 @@
 
         <div class="main">
 
-            <ul class="cards">
+            <ul class="cards" id="ag">
                 <li class="cards_item">
                     <div data-aos="fade-down"
                          data-aos-easing="linear"
@@ -461,8 +485,7 @@
                         <div class="card_image"><img src="assets/img/postionAssgiment.svg"></div>
                         <div class="card_content">
                             <h2 class="card_title">Assigment 01</h2>
-                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
-                            <button class="btn card_btn">Read More</button>
+                            <button class="btn card_btn" >Read more</button>
                         </div>
                     </div>
                 </li>
@@ -573,6 +596,7 @@
 
 
         <div id="mobile_gallery" >
+
             <section id="">
                 <div class="gallery-container">
                     <img src="/assets/img/mypic4.svg"  alt>
@@ -698,6 +722,23 @@
         spinner = document.querySelector("#spinner");
         if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
         spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
+    }
+</script>
+
+
+
+<!--///////////  Mobile Navi Script //////////////////-->
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "black";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "black";
     }
 </script>
 
