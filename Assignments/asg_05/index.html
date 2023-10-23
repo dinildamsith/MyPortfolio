@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 09</title>
+    <style>
+        body{
+            position: relative;
+            background-color: black;
+            color: white;
+        }
+
+        h1{
+            font-family: "Arial Black";
+            position: relative;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+        }
+        .lights{
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item{
+            background-color: #ced4da;
+            border-radius: 5%;
+            position: relative;
+            margin: 5px;
+            width: 100px;
+            height: 50px;
+            border: 1px solid grey;
+        }
+
+
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-container{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            position: relative;
+            top: -100px;
+            width: 500px;
+            height: 30px;
+        }
+
+        .btn-container>button{
+            border-radius: 10%;
+            margin: 5px;
+            position: relative;
+            width: 75px;
+            height: 35px;
+        }
+
+        .btn-container>button:first-child{
+            background-color: lightskyblue;
+            color: white;
+        }
+
+        .btn-container>button:first-child:hover{
+            background-color: cornflowerblue;
+            border: 1px solid dodgerblue;
+        }
+
+        .btn-container>button:nth-child(2){
+            background-color: indianred;
+            color: white;
+        }
+
+        .btn-container>button:nth-child(2):hover{
+            background-color: red;
+            border: 1px solid darkred;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="lights">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="btn-container">
+        <button class="start_btn">Start</button>
+        <button class="stop">Stop</button>
+    </div>
+    <audio src="assets/audio/Knight-Rider-Theme-Song.mp3" loop autoplay id="audio"></audio>
+</section>
+
+<script src="assets/jquery/jquery.min.js"></script>
+<script >
+    const items = $('.item');
+    const start = $('.start_btn');
+    const stop = $('.stop');
+    let count = 7;
+    let lightCount = 0;
+    let direction = 'Right';
+    let intervalId;
+
+    start.on('click', () => {
+        $('audio')[0].play();
+
+        intervalId = setInterval(() => {
+            items.css('background', 'white');
+
+            if (direction === 'Right') {
+                lightCount++
+                items.eq(lightCount-1).css('background', '#ffc2d1');
+                items.eq(lightCount).css('background', 'red');
+                items.eq(lightCount+1).css('background', '#ff8fab');
+                if (lightCount === count - 1){
+                    direction = 'Left';
+                }
+            }else{
+                lightCount--
+                if (lightCount === 0){
+                    direction = 'Right';
+                    items.eq(lightCount+1).css('background', '#ffc2d1');
+                    items.eq(lightCount).css('background', 'red');
+                }else {
+                    items.eq(lightCount+1).css('background', '#ffc2d1');
+                    items.eq(lightCount).css('background', 'red');
+                    items.eq(lightCount-1).css('background', '#ff8fab');
+                }
+
+
+
+            }
+        },75);
+
+    });
+
+    stop.on('click', () => {
+        clearInterval(intervalId);
+        $('audio')[0].pause();
+    });
+</script>
+</body>
+</html>

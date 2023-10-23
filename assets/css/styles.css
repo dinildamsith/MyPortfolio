@@ -9,6 +9,10 @@ body {
     font-weight: 400;
     letter-spacing: 0;
 
+
+}
+a{
+text-decoration: none;
 }
 html, body {
     max-width: 100%;
@@ -46,6 +50,23 @@ p{
 
 
 }
+/* styles.css */
+.ag_btn{
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+.ag_btn:hover {
+    background-color: black; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+
 
 #dLogo {
     width: 100px;
@@ -262,6 +283,7 @@ h1{
     right: -22%;
     left: 50%;
     top: 182px;
+    display: table-cell;
     /* font-size: 20px; */
 }
 #seethawak{
@@ -384,10 +406,9 @@ footer>#footer_div>div{
 }
 
 /*////////////////Project Pages Css/////////////////*/
-#project>.main>.cards>.cards_item{
-    height: 445px;
-    width: 400px;
-
+#project>.main>.cards>.cards_item {
+    height: 432px;
+    width: 397px;
 }
 #project>.main>.cards{
     display: flex;
@@ -466,6 +487,27 @@ footer>#footer_div>div{
 }
 
 /*///////////////////////////////*/
+
+#ag2>a>button {
+    margin-top: 12.2px;
+    width: 104px;
+    display: inline-block;
+}
+#ag3>a>button {
+    margin-top: 9.2px;
+    width: 104px;
+    display: inline-block;
+}
+#ag4>a>button{
+    margin-top: 8.2px;
+    width: 104px;
+    display: inline-block;
+}
+
+.card_content {
+    width: 100%;
+    height: 105%;
+}
 
 #Assigment>.main>.cards{
     position: absolute;

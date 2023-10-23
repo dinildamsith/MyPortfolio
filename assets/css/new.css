@@ -105,6 +105,11 @@
         right: 66%;
     }
 }
+@media all and (Max-width: 1122px){
+    p#pr {
+        font-size: 22px;
+    }
+}
 @media all  and (Max-width: 1031px ) {
     #education_div>pr>#education_Logo {
         margin: 25px -5px;
@@ -166,7 +171,6 @@
         display: none;
     }
 }
-
 @media all and (Max-width: 988px){
     #sidePic {
         position: absolute;
@@ -183,8 +187,8 @@
         /* top: 200px; */
     }
     #pr {
-        font-size: 30px;
-        right: 4%;
+        font-size: 23px;
+        right: 11%;
     }
     #about_me_Page_Main>section>#firstDev>#myPic2 {
         top: -299px;
@@ -241,7 +245,6 @@
     }
 
 }
-
 @media all  and (Max-width: 841px ) {
     #education_Logo {
         /* position: relative; */
@@ -261,7 +264,6 @@
         size: 45px;
     }
 }
-
 @media all  and (Max-width: 897px ) {
     #about_me_Page_Main>section>#firstDev>p {
         font-size: 23px;
@@ -308,7 +310,6 @@
     }
 
 }
-
 @media all and (Max-width: 822px){
     #hello_hand {
         position: absolute;
@@ -348,8 +349,6 @@
 
 
 }
-
-
 @media all  and (Max-width: 784px ) {
     div#links {
         top: 60px;
@@ -402,7 +401,6 @@
         font-size: 17px;
     }
 }
-
 @media all  and (Max-width: 712px ) {
 
     #experience_div>#artical {
@@ -502,7 +500,6 @@
         left: 3%;
     }
 }
-
 @media all  and (Max-width: 666px ) {
     #socialLink {
         /* position: absolute; */
@@ -631,14 +628,69 @@
     }
 
 }
-
 @media all  and (Max-width: 651px ) {
     #project>.main>.cards>.cards_item {
         height: 384px;
         width: 259px;
     }
 }
+@media all and (Max-width: 640px){
+    #ag2>a>button {
+        margin-top: 12.2px;
+        width: 64px;
+        display: table-caption;
+    }
+    #ag3>a>button {
+        margin-top: 9.2px;
+        width: 64px;
+        display: inline-block;
+    }
 
+}
+@media all and (Max-width: 629px){
+    #ag2>a>button {
+        margin-top: 6.2px;
+        width: 63px;
+        display: table-caption;
+    }
+
+    #ag3>a>button {
+        margin-top: 9.2px;
+        width: 63px;
+        display: inline-block;
+    }
+
+
+}
+@media all and (Max-width: 622px){
+    #ag2>a>button {
+        margin-top: 6.2px;
+        width: 61px;
+        display: table-caption;
+    }
+
+    #ag3>a>button {
+        margin-top: 9.2px;
+        width: 61px;
+        display: inline-block;
+    }
+
+}
+@media all and (Max-width: 609px){
+    #ag2>a>button {
+        margin-top: 6.2px;
+        width: 61px;
+        display: table-caption;
+    }
+
+    #ag3>a>button {
+        margin-top: 9.2px;
+        width: 61px;
+        display: inline-block;
+    }
+
+
+}
 @media all  and (Max-width: 589px ) {
     #project>.main>.cards>.cards_item {
         height: 384px;
@@ -661,7 +713,15 @@
         /* display: inline-table; */
     }
 }
+@media all and (Max-width: 1122px){
+    #Assigment>div {
+        top: 2103px;
+    }
+    button#asg1Btn {
+        height: 80%;
+    }
 
+}
 @media all  and (Max-width: 550px ) {
     #Assigment>div {
         position: relative;
@@ -676,7 +736,6 @@
     }
 
 }
-
 @media all  and (Max-width: 520px ) {
     #Assigment>div {
         position: relative;
@@ -689,8 +748,38 @@
 
 
 
+@media all  and (Max-width: 491px ) {
 
+    #Assigment>div {
+        top: 2630px;
+    }
+    #contactUsPage>#form>#txtFieldSet {
+        width: 359px;
+    }
+    #massage {
+        width: 413px;
+    }
+    #contactUsPage {
+        margin-top: 2835px;
+    }
+    #gallery {
+        top: 2698px;
+    }
+    #carousel>#spinner>img {
+        width: 131%;
+        max-width: 433px;
+        height: 528px;
+        position: absolute;
+        left: -33%;
+        transform-origin: 50% 50% -500px;
+        outline: 1px solid transparent;
+    }
+
+}
 @media all  and (Max-width: 479px ) {
+#asg5Btn,#asg6Btn{
+    height: 67%;
+}
 
     #mobile_gallery{
         display: block;
@@ -718,6 +807,7 @@
         height: 57%;
         width: auto;
     }
+
     #about_me_Page_Main>section>#firstDev>#myPic2 {
         /* position: absolute; */
         right: calc(50% - 53%);
@@ -784,11 +874,11 @@
         position: relative;
         /* color: white; */
         right: -22%;
-        left: 58%;
+        left: 55%;
         top: 182px;
         /* font-size: 20px; */
         width: 108px;
-        display: flow;
+        display: list-item;
     }
     #projectPage>section>div {
         margin-left: 70px;
@@ -893,11 +983,11 @@
     }
     .cards_item {
         width: 50%;
-        height: 194px;
+        height: 372px;
     }
     #Assigment>div {
         position: relative;
-        top: 2242px;
+        top: 2780px;
     }
     #gallery {
         position: relative;
@@ -932,12 +1022,12 @@
     }
     #mobile_gallery {
         position: relative;
-        top: 2334px;
+        top: 2937px;
         left: 20%;
     }
     #contactUsPage {
         position: relative;
-        margin-top: 2360px;
+        margin-top: 3148px;
     }
     #contactUsPage>#form>#txtFieldSet>form>h3 {
         position: relative;
@@ -1185,13 +1275,10 @@
         font-size: 12px;
         text-align: center;
     }
-    .cards_item {
-        width: 50%;
-        height: 194px;
-    }
+
     #Assigment>div {
         position: relative;
-        top: 2242px;
+        top: 2747px;
     }
     #gallery {
         position: relative;
@@ -1226,12 +1313,12 @@
     }
     #mobile_gallery {
         position: relative;
-        top: 2334px;
+        top: 2891px;
         left: 20%;
     }
     #contactUsPage {
         position: relative;
-        margin-top: 2360px;
+        margin-top: 3069px;
     }
     #contactUsPage>#form>#txtFieldSet>form>h3 {
         position: relative;
@@ -1273,7 +1360,6 @@
         margin-left: 0%;
     }
 }
-
 @media all  and (Max-width: 434px ) {
 
     #mobile_gallery{
@@ -1480,14 +1566,8 @@
         font-size: 12px;
         text-align: center;
     }
-    .cards_item {
-        width: 50%;
-        height: 194px;
-    }
-    #Assigment>div {
-        position: relative;
-        top: 2242px;
-    }
+
+
     #gallery {
         position: relative;
         top: 2042px;
@@ -1519,15 +1599,8 @@
     #gallery{
         display: none;
     }
-    #mobile_gallery {
-        position: relative;
-        top: 2334px;
-        left: 20%;
-    }
-    #contactUsPage {
-        position: relative;
-        margin-top: 2360px;
-    }
+
+
     #contactUsPage>#form>#txtFieldSet>form>h3 {
         position: relative;
         bottom: 20px;
@@ -1568,7 +1641,65 @@
         margin-left: 0%;
     }
 }
+@media all  and (Max-width: 426px){
+    #ag2>a>button {
+        margin-top: 6.2px;
+        width: 100%;
+        display: inline;
+    }
+    button#asg1Btn {
+        height: 52%;
+    }
+    .cards_item {
+        width: 63%;
+        height: 372px;
+    }
+    #Assigment>div {
+        position: relative;
+        top: 3652px;
+    }
+    #contactUsPage {
+        position: relative;
+        margin-top: 3941px;
+    }
+    #mobile_gallery {
+        position: relative;
+        top: 3799px;
+        left: 20%;
+    }
 
+
+    #asgCard1 {
+        height: 267px;
+    }
+    #asgCard2 {
+        height: 485px;
+    }
+    #asgCard3{
+        height: 449px;
+    }
+    #asgCard4 {
+        height: 286px;
+    }
+    #asgCard5{
+        height: 244px;
+    }
+    #asgCard6{
+        height: 244px;
+    }
+
+    #ag3>a>button {
+        margin-top: 6.2px;
+        width: 100%;
+        display: inline;
+    }
+    #ag4>a>button {
+        margin-top: 6.2px;
+        width: 100%;
+        display: inline;
+    }
+
+}
 @media all  and (Max-width: 390px ) {
 
     #mobile_gallery{
@@ -1781,14 +1912,11 @@
         font-size: 12px;
         text-align: center;
     }
-    .cards_item {
-        width: 50%;
-        height: 194px;
-    }
-    #Assigment>div {
-        position: relative;
-        top: 2242px;
-    }
+
+    /*#Assigment>div {*/
+    /*    position: relative;*/
+    /*    top: 2242px;*/
+    /*}*/
     #gallery {
         position: relative;
         top: 2042px;
@@ -1820,15 +1948,15 @@
     #gallery{
         display: none;
     }
-    #mobile_gallery {
-        position: relative;
-        top: 2334px;
-        left: 20%;
-    }
-    #contactUsPage {
-        position: relative;
-        margin-top: 2360px;
-    }
+    /*#mobile_gallery {*/
+    /*    position: relative;*/
+    /*    top: 2334px;*/
+    /*    left: 20%;*/
+    /*}*/
+    /*#contactUsPage {*/
+    /*    position: relative;*/
+    /*    margin-top: 2360px;*/
+    /*}*/
     #contactUsPage>#form>#txtFieldSet>form>h3 {
         position: relative;
         bottom: 20px;
@@ -2081,14 +2209,14 @@
         font-size: 12px;
         text-align: center;
     }
-    .cards_item {
-        width: 50%;
-        height: 194px;
-    }
-    #Assigment>div {
-        position: relative;
-        top: 2242px;
-    }
+    /*.cards_item {*/
+    /*    width: 50%;*/
+    /*    height: 194px;*/
+    /*}*/
+    /*#Assigment>div {*/
+    /*    position: relative;*/
+    /*    top: 2242px;*/
+    /*}*/
     #gallery {
         position: relative;
         top: 2042px;
@@ -2120,15 +2248,15 @@
     #gallery{
         display: none;
     }
-    #mobile_gallery {
-        position: relative;
-        top: 2334px;
-        left: 20%;
-    }
-    #contactUsPage {
-        position: relative;
-        margin-top: 2360px;
-    }
+    /*#mobile_gallery {*/
+    /*    position: relative;*/
+    /*    top: 2334px;*/
+    /*    left: 20%;*/
+    /*}*/
+    /*#contactUsPage {*/
+    /*    position: relative;*/
+    /*    margin-top: 2360px;*/
+    /*}*/
     #contactUsPage>#form>#txtFieldSet>form>h3 {
         position: relative;
         bottom: 20px;
