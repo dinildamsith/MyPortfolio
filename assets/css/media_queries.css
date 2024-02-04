@@ -1,0 +1,931 @@
+@media all  and (Max-width: 425px ) {
+    body{
+        margin: 0;
+        background-color: black;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+
+    }
+
+
+    /*/////////////////////////// Home Page //////////////////////////////*/
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding: 0px 0px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-color 0.3s, transform 0.2s;
+        display: inline-block;
+        position: relative;
+
+    }
+
+    #dLogo {
+        width: 20px;
+        margin-left: 1px;
+        margin-bottom: 13px;
+
+    }
+
+    #hello_hand{
+        position: absolute;
+        top: 270px;
+        left: 10%;
+        width: 20px;
+    }
+
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        width: auto;
+    }
+
+    #myPic {
+        position: absolute;
+        height: 145px;
+        width: auto;
+        right: -120px;
+        left: 45%;
+        top: 85px;
+
+    }
+
+    #pr {
+        position: absolute;
+        top: 250px;
+        left: 24%;
+        right: -22%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        overflow: paged-x;
+    }
+
+    #homeWord{
+        position: absolute;
+        right: 9%;
+        bottom: -1px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #0E144C;
+        letter-spacing: 20px;
+    }
+
+    #socialLink{
+        position: absolute;
+        right: 17%;
+        top: 90%;
+
+    }
+
+    #socialLink>a>img{
+        height: 10%;
+    }
+
+
+    /*////////////////////////////  About Me Page ///////////////////////////////*/
+
+    #myPic2{
+        display: none;
+    }
+    #myPic3{
+        position: absolute;
+        display: inline;
+        width: 50%;
+        right: 0;
+        left: 0;
+        bottom: -48%;
+        margin: auto;
+
+    }
+
+    #about_me_Page_Main>section>#firstDev{
+        position: absolute;
+        right: 4%;
+        left: 14%;
+        top: 155%;
+        bottom: -93%;
+        margin: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2{
+        width: 20px;
+        right: 79.9%;
+        left: -10%;
+        top: -1%;
+    }
+    #about_me_Page_Main>section>#firstDev>p{
+        position: absolute;
+        font-size: 20px;
+        display: contents;
+        overflow-x: paged-x;
+    }
+
+
+    #skill_div{
+        position: absolute;
+        top: 220%;
+        left: 14%;
+    }
+
+    #skill_div>pr{
+        position: absolute;
+        display: contents;
+    }
+
+    #skill_div>h4{
+        top: -59%;
+        left: 0%;
+    }
+
+    #logoSkills{
+        position: absolute;
+        top: 115%;
+        left: -10px;
+        right: -61%;
+    }
+
+    #skill_div>img:last-child{
+        position: absolute;
+        right: -53%;
+        top: 134%;
+    }
+
+    #education_div{
+        position: absolute;
+        top: 299%;
+    }
+
+    #education_div>pr>#education_Logo{
+        position: absolute;
+        top: 95%;
+        left: 9%;
+
+    }
+
+    #experience_div{
+        position: absolute;
+        /* display: contents; */
+        top: 429%;
+        left: 23%;
+    }
+    #experience_div>pr{
+        position: absolute;
+        display: contents;
+        left: 22%;
+    }
+    #experience_div>h4{
+        position: absolute;
+        left: -21%;
+        top: -19%;
+    }
+
+    #experience_div>#group{
+        width: 314px;
+        top: 104%;
+        left: -37%;
+    }
+    #experience_div>#ftsLogo{
+        position: absolute;
+        top: 222%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #experience_div>#artical{
+        top: 122%;
+        width: 191%;
+        left: -37%;
+
+
+    }
+
+    #vision_mission_div{
+        position: absolute;
+        left: 9%;
+        top: 619%;
+        display: none;
+    }
+    #vision_mission_div>#vision{
+        color: red;
+        position: absolute;
+        font-size: 30px;
+        left: 96px;
+        top: -113px;
+
+    }
+
+    #vision_mission_div>#mission{
+        color: red;
+        position: absolute;
+        font-size: 30px;
+        right: 44%;
+        top: 55px;
+    }
+
+    #vision_mission_div>#vision_pr{
+        color: white;
+        position: absolute;
+        display: contents;
+
+    }
+
+    #vision_mission_div>#mission_pr{
+        color: white;
+        position: absolute;
+        top: 490px;
+        display: contents;
+
+    }
+
+    #footer_div{
+        position: absolute;
+        position: absolute;
+        top: 601%;
+        left: -10%;
+    }
+
+    #footer_div>#links{
+        position: absolute;
+        width: -34px;
+        left: 191px;
+        top: 128px;
+
+    }
+
+
+
+
+    /*////////////////////////////////////////*/
+
+    #project>div:nth-child(2)>div{
+        margin: 20px;
+    }
+
+    #projectPage>section>div{
+        position: absolute;
+        top: 825%;
+
+
+    }
+    [name=pgpic]{
+        width: 200px;
+    }
+
+
+
+
+    #projectPage>section>div{
+        position: absolute;
+        /* margin-left: 64px; */
+        left: 2%;
+        right: 0;
+        top: 581%;
+        /* margin: auto; */
+        color: white;
+    }
+
+    .project-description {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        right: -6vw;
+
+    }
+    #hey{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        right: 37vw;
+        top: 26vw;
+    }
+
+    #projectPage>section>div>#project-1{
+        display: flex;
+        justify-content: normal;
+        flex-direction: column;
+    }
+
+
+    #projectPage>section>div>#project2{
+        display: flex;
+        justify-content: normal;
+        flex-direction: column;
+    }
+    #projectPage>section>div>#project3{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    #projectPage>section>div>#project4{
+        display: flex;
+        justify-content:end;
+    }
+
+    .project-descriptionL {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        text-align: center;
+        /* Adjust the margin as needed */
+    }
+    #project>.main>.cards>.cards_item{
+        height: 392px;
+        width: 320px;
+
+    }
+    #project>.main>.cards{
+        position: absolute;
+        /* right: 23%; */
+        left: -5vh;
+    }
+
+
+
+    #Assigment>div{
+        position: absolute;
+        top: 1139%;
+        left: 26%;
+    }
+
+
+    #Assigment>div>div{
+        width: 30px;
+    }
+    #Assigment>.main>.cards{
+        position: absolute;
+        bottom: -1577%;
+        width: 45px;
+    }
+
+
+
+    #gallery{
+        position: absolute;
+        top: 1250%;
+    }
+    #gallery>img{
+        width: 50px;
+    }
+
+
+
+
+    #contactUsPage{
+        position: absolute;
+        top: 1450%;
+        left: -41%;
+        display: none;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input{
+        position: relative;
+        width: 80px;
+        height: 2px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        left: 45px;
+    }
+
+}
+
+@media all  and (Max-width: 444px ) {
+    body{
+        margin: 0;
+        background-color: black;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+
+    }
+
+
+    /*/////////////////////////// Home Page //////////////////////////////*/
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding: 0px 0px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-color 0.3s, transform 0.2s;
+        display: inline-block;
+        position: relative;
+
+    }
+
+    #dLogo {
+        width: 20px;
+        margin-left: 1px;
+        margin-bottom: 13px;
+
+    }
+
+    #hello_hand{
+        position: absolute;
+        top: 270px;
+        left: 10%;
+        width: 20px;
+    }
+
+    #sidePic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        width: auto;
+    }
+
+    #myPic {
+        position: absolute;
+        height: 145px;
+        width: auto;
+        right: -120px;
+        left: 45%;
+        top: 85px;
+
+    }
+
+    #pr {
+        position: absolute;
+        top: 250px;
+        left: 24%;
+        right: -22%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        overflow: paged-x;
+    }
+
+    #homeWord{
+        position: absolute;
+        right: 9%;
+        bottom: -1px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #0E144C;
+        letter-spacing: 20px;
+    }
+
+    #socialLink{
+        position: absolute;
+        right: 17%;
+        top: 90%;
+
+    }
+
+    #socialLink>a>img{
+        height: 10%;
+    }
+
+
+    /*////////////////////////////  About Me Page ///////////////////////////////*/
+
+    #myPic2{
+        display: none;
+    }
+    #myPic3{
+        position: absolute;
+        display: inline;
+        width: 50%;
+        right: 0;
+        left: 0;
+        bottom: -383px;
+        margin: auto;
+
+    }
+
+    #about_me_Page_Main>section>#firstDev{
+        position: absolute;
+        right: 4%;
+        left: 14%;
+        bottom: -702px;
+        margin: auto;
+    }
+    #about_me_Page_Main>section>#firstDev>#hello_hand2{
+        width: 20px;
+        right: 79.9%;
+        left: -10%;
+        top: -1%;
+    }
+    #about_me_Page_Main>section>#firstDev>p{
+        position: absolute;
+        font-size: 20px;
+        display: contents;
+        overflow-x: paged-x;
+    }
+
+
+    #skill_div{
+        position: absolute;
+        top: 1638px;
+        left: 14%;
+    }
+
+    #skill_div>pr{
+        position: absolute;
+        display: contents;
+    }
+
+    #skill_div>h4{
+        top: -59%;
+        left: 0%;
+    }
+
+    #logoSkills{
+        position: absolute;
+        top: 115%;
+        left: -10px;
+        right: -61%;
+    }
+
+    #skill_div>img:last-child{
+        position: absolute;
+        right: -13%;
+        top: 155%;
+    }
+
+    #education_div{
+        position: absolute;
+        top: 284%;
+    }
+
+    #education_div>pr>#education_Logo{
+        position: absolute;
+        top: 95%;
+        left: 9%;
+        width: 239%;
+
+    }
+
+    #experience_div{
+        position: absolute;
+        /* display: contents; */
+        top: 403%;
+        left: 23%;
+    }
+    #experience_div>pr{
+        position: absolute;
+        display: contents;
+        left: 22%;
+    }
+    #experience_div>h4{
+        position: absolute;
+        left: -21%;
+        top: -19%;
+    }
+
+    #experience_div>#group{
+        width: 314px;
+        top: 113%;
+        left: 5%;
+    }
+    #experience_div>#ftsLogo{
+        position: absolute;
+        top: 235%;
+        left: 21px;
+        right: 0;
+        margin: auto;
+    }
+    #experience_div>#artical{
+        top: 122%;
+        width: 191%;
+        left: 5%;
+
+
+    }
+
+    #vision_mission_div{
+        position: absolute;
+        left: 9%;
+        top: 619%;
+        display: none;
+    }
+    #vision_mission_div>#vision{
+        color: red;
+        position: absolute;
+        font-size: 30px;
+        left: 96px;
+        top: -113px;
+
+    }
+
+    #vision_mission_div>#mission{
+        color: red;
+        position: absolute;
+        font-size: 30px;
+        right: 44%;
+        top: 55px;
+    }
+
+    #vision_mission_div>#vision_pr{
+        color: white;
+        position: absolute;
+        display: contents;
+
+    }
+
+    #vision_mission_div>#mission_pr{
+        color: white;
+        position: absolute;
+        top: 490px;
+        display: contents;
+
+    }
+
+    #footer_div{
+        position: absolute;
+        position: absolute;
+        top: 601%;
+        left: -10%;
+    }
+
+    #footer_div>#links{
+        position: absolute;
+        width: -34px;
+        left: 191px;
+        top: 128px;
+
+    }
+
+
+
+
+    /*////////////////////////////////////////*/
+
+    #project>div:nth-child(2)>div{
+        margin: 20px;
+    }
+
+    #projectPage>section>div{
+        position: absolute;
+        top: 825%;
+
+
+    }
+    [name=pgpic]{
+        width: 200px;
+    }
+
+
+
+
+    #projectPage>section>div{
+        position: absolute;
+        /* margin-left: 64px; */
+        left: 2%;
+        right: 0;
+        top: 581%;
+        /* margin: auto; */
+        color: white;
+    }
+
+    .project-description {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        right: -6vw;
+
+    }
+    #hey{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        right: 37vw;
+        top: 26vw;
+    }
+
+    #projectPage>section>div>#project-1{
+        display: flex;
+        justify-content: normal;
+        flex-direction: column;
+    }
+
+
+    #projectPage>section>div>#project2{
+        display: flex;
+        justify-content: normal;
+        flex-direction: column;
+    }
+    #projectPage>section>div>#project3{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    #projectPage>section>div>#project4{
+        display: flex;
+        justify-content:end;
+    }
+
+    .project-descriptionL {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        text-align: center;
+        /* Adjust the margin as needed */
+    }
+    #project>.main>.cards>.cards_item{
+        height: 392px;
+        width: 320px;
+
+    }
+    #project>.main>.cards{
+        position: absolute;
+        left: 5vh;
+        width: 62%;
+    }
+
+
+
+    #Assigment>div{
+        position: absolute;
+        top: 1139%;
+        left: 26%;
+    }
+
+
+    #Assigment>div>div{
+        width: 30px;
+    }
+    #Assigment>.main>.cards{
+        position: absolute;
+        bottom: 168px;
+        width: 50vh;
+        left: -81px;
+    }
+
+
+
+    #gallery{
+        position: absolute;
+
+    }
+    #gallery>img{
+        width: 50px;
+    }
+
+
+
+
+    #contactUsPage{
+        position: absolute;
+        top: 1450%;
+        left: -41%;
+        display: none;
+    }
+    #contactUsPage>#form>#txtFieldSet>form>input{
+        position: relative;
+        width: 80px;
+        height: 2px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        left: 45px;
+    }
+
+}
+
+@media all  and (Max-width: 375px ) {
+    #footer_div{
+        position: absolute;
+        top: 608%;
+        left: -15%;
+    }
+
+
+}
+
+@media all  and (Max-width: 363px ) {
+    #footer_div{
+        position: absolute;
+        top: 608%;
+        left: -15%;
+    }
+
+    #experience_div>#ftsLogo{
+        position: absolute;
+        top: 212%;
+        left: 14%;
+        right: 8%;
+        margin: auto;
+    }
+
+
+}
+
+@media all  and (Max-width: 352px ) {
+    #socialLink{
+        position: absolute;
+        right: 9%;
+        left: 9%;
+        top: 90%;
+
+    }
+    #footer_div{
+        position: absolute;
+        top: 612%;
+        left: -15%;
+    }
+
+
+
+}
+
+@media all  and (Max-width: 345px ) {
+
+    #socialLink{
+        position: absolute;
+        right: 6%;
+        left: 9%;
+        top: 90%;
+
+    }
+    #socialLink>a>img{
+        height: 5%;
+    }
+    #experience_div>#group{
+        width: 291px;
+        top: 106%;
+        left: -38%;
+    }
+    #experience_div>#artical{
+        top: 122%;
+        width: 191%;
+        left: -37%;
+
+
+    }
+
+}
+
+
+@media all  and (Max-width: 332px ) {
+
+    #socialLink{
+        position: absolute;
+        right: -1%;
+        left: 7%;
+        top: 90%;
+    }
+
+    #experience_div>#group{
+        width: 291px;
+        top: 106%;
+        left: -38%;
+    }
+    #experience_div>#artical{
+        top: 122%;
+        width: 191%;
+        left: -37%;
+
+
+    }
+
+    #experience_div>#ftsLogo{
+        position: absolute;
+        top: 204%;
+        left: 7%;
+        right: 8%;
+        margin: auto;
+    }
+
+    #footer_div{
+        position: absolute;
+        top: 611%;
+        left: -21%;
+    }
+
+
+}
+
+@media all  and (Max-width: 316px ) {
+    #footer_div{
+        position: absolute;
+        top: 617%;
+        left: -23%;
+    }
+}
+
+@media all  and (Max-width: 344px ) {
+    #navigation{
+        display: inline;
+    }
+    #footer_div{
+        position: absolute;
+        top: 617%;
+        left: -23%;
+    }
+}
+

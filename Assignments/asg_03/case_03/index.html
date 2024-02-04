@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 03</title>
+
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    div {
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 20px;
+        animation: moveRotate 5s linear infinite alternate;
+        transition-duration: 3s;
+    }
+
+    @keyframes moveRotate {
+        0% {
+            margin-top: 0;
+            margin-left: 0;
+        }
+        25% {
+            margin-top: 0;
+            margin-left: calc(100vw - 200px);
+            transform: rotate(90deg);
+            background-color: yellow;
+        }
+        50% {
+            margin-top: calc(100vh - 100px);
+            margin-left: calc(100vw - 200px);
+            transform: rotate(180deg);
+            background-color: red;
+        }
+        75% {
+            margin-top: calc(100vh - 100px);
+            margin-left: 0;
+            transform: rotate(270deg);
+            background-color: green;
+        }
+        100% {
+            margin-top: 0;
+            margin-left: 0;
+            transform: rotate(360deg);
+            background-color: blue;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

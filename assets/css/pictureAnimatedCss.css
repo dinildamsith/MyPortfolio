@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gallery {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.gallery-container {
+    position: relative;
+    max-width: 600px;
+    height: 350px;
+    overflow: hidden;
+    margin: 50px auto 0 auto;
+    /* Corrected the typo in "transform" property */
+    transform: translate3d(0, 0, 0);
+}
+
+.gallery-container img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -50%;
+    max-width: 62%;
+    animation-name: gallery;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Corrected the typo in "animation-timing-function" property */
+    animation-timing-function: linear;
+}
+
+/* You can use the :nth-child() pseudo-class to simplify the animation delay */
+.gallery-container img:nth-child(1) {
+    z-index: 4;
+}
+
+.gallery-container img:nth-child(2) {
+    animation-delay: 2.5s;
+    z-index: 3;
+}
+
+.gallery-container img:nth-child(3) {
+    animation-delay: 5s;
+    z-index: 2;
+}
+
+.gallery-container img:nth-child(4) {
+    animation-delay: 7.5s;
+    z-index: 1;
+}

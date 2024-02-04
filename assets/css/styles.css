@@ -1,0 +1,690 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    color: #ffcc00;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+
+
+}
+a{
+text-decoration: none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+p{
+    color: white;
+
+}
+
+
+#mobile_gallery{
+    display: none;
+}
+
+
+/*////////////////////Navigation Bar Css //////////////////*/
+#navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 99900000000000;
+    font-weight: bold;
+
+
+}
+/* styles.css */
+.ag_btn{
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+.ag_btn:hover {
+    background-color: black; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+
+
+#dLogo {
+    width: 100px;
+    margin-left: 40px;
+
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s, transform 0.2s;
+    display: inline-block;
+    position: relative;
+
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffcc00;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+    border-bottom-color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+}
+h1{
+    color: white;
+}
+
+
+/*///////////////////////////home Page Css////////////////////////////*/
+
+#home_Main{
+    position: relative;
+}
+#sidePic{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    width: auto;
+}
+
+#div{
+    position: relative;
+    margin-top: 0px;
+    margin-right: 30%;
+}
+#hello_hand{
+    position: absolute;
+    top: 210px;
+    left: 18%;
+    width: 40px;
+}
+
+
+#myPic{
+    width: 31%;
+    position: absolute;
+    right: -120px;
+    top: 200px;
+}
+
+
+#pr{
+    position: absolute;
+    top: 185px;
+    right: 19%;
+    left: 24%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
+#socialLink{
+    position: absolute;
+    right: 41%;
+    bottom: 33px;
+}
+#homeWord{
+    position: absolute;
+    right: 37%;
+    bottom: -10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0E144C;
+    letter-spacing: 20px;
+}
+
+#mobile_navi{
+    position: fixed;
+    z-index: 99999999;
+}
+
+/*///////////////////////////About me Page Css////////////////////////////*/
+/*#about_me_Page_Main{*/
+/*    position: relative;*/
+/*    top: 750px;*/
+/*}*/
+#about_me_Page_Main>section>#firstDev{
+    position: relative;
+    bottom: -500px;
+    margin-right: 30%;
+}
+#about_me_Page_Main>section>#firstDev>#myPic2{
+    position: absolute;
+    right: -115px;
+    top: -300px;
+    width: 31%;
+
+}
+#myPic3{
+    display: none;
+}
+#about_me_Page_Main>section>#firstDev>#hello_hand2{
+    position: absolute;
+    right: 82%;
+    top: -300px;
+    width: 40px;
+}
+#about_me_Page_Main>section>#firstDev>p{
+    position: absolute;
+    top: -320px;
+    right: 25%;
+    left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
+
+
+
+
+#skill_div{
+    position: relative;
+    top: 650px;
+    margin-right: 30%;
+}
+
+
+#skill_div>pr {
+    position: absolute;
+    color: white;
+    left: 19.5%;
+    top: 234%;
+    font-size: 20px;
+}
+#skill_div>h4 {
+    font-family: 'Nosifer', sans-serif;
+    color: #E7B10A;
+    position: absolute;
+    top: 0%;
+    left: 19.5%;
+    font-size: 40px;
+}
+
+
+#skill_div>img:last-child{
+    position:absolute;
+    right: -18%;
+    top: 10%;
+
+
+}
+
+#logoSkills{
+    position: relative;
+    top: 200px;
+    left: 20%;
+
+}
+
+#education_div{
+    position: relative;
+    top: 900px;
+    margin-right: 35%;
+
+}
+#education_div>h4{
+    color: #E7B10A;
+    font-family: 'Nosifer', sans-serif;
+    position: absolute;
+    top: 0%;
+    left: 20.5%;
+    font-size: 40px;
+}
+#education_div>pr {
+    position: relative;
+    color: white;
+    right: -22%;
+    left: 21%;
+    top: 128px;
+    font-size: 20px;
+}
+#education_Logo {
+    position: relative;
+    /* color: white; */
+    right: -22%;
+    left: 50%;
+    top: 182px;
+    display: table-cell;
+    /* font-size: 20px; */
+}
+#seethawak{
+    border-radius: 88px;
+}
+
+#education_div>pr>#education_Logo{
+    margin: 29px 7px;
+    position: relative;
+    top: 15%;
+    left: 15%;
+
+}
+#education_div>pr>#education_Logo>img{
+    position: relative;
+    border-radius: 150px;
+    left: 0%;
+    right: 0%;
+    margin: 29px;
+
+}
+
+#experience_div {
+    position: relative;
+    top: 1223px;
+    margin-right: 30%;
+}
+
+#experience_div>pr{
+    position: absolute;
+    color: white;
+    right: 20%;
+    left:  20%;
+    top: -2vw;
+    font-size: 20px;
+
+}
+#experience_div>#artical{
+    position: absolute;
+    height: 550px;
+    top: 15px;
+    width: auto;
+   right: -35%;
+}
+#experience_div>#group{
+    position: absolute;
+    width: 609px;
+    top: 262px;
+    right: 10%;
+    bottom: 110vh;
+
+}
+#experience_div>#ftsLogo {
+    position: absolute;
+    right: 18%;
+    top: 650px;
+}
+
+#experience_div>h4{
+    color: #E7B10A;
+    font-family: 'Nosifer', sans-serif;
+    position: absolute;
+    top: -127px;
+    left: 19.5%;
+    font-size: 40px;
+}
+
+#footer_div{
+    position: relative;
+    top: 2200px;
+}
+
+#vision_mission_div {
+    position: relative;
+    top: 2009px;
+    left: 0;
+}
+
+#vision_mission_div>#vision {
+    font-family: 'Nosifer', sans-serif;
+    color: red;
+    position: absolute;
+    font-size: 40px;
+    left: 75%;
+}
+
+#vision_mission_div>#mission {
+    font-family: 'Nosifer', sans-serif;
+    color: red;
+    position: absolute;
+    font-size: 40px;
+    right: 69%;
+    top: 0%;
+}
+#vision_mission_div>#vision_pr {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 68%;
+    text-align: center;
+}
+
+#vision_mission_div>#mission_pr {
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 66%;
+    text-align: center;
+}
+
+
+#aboutMeWord{
+    color: white;
+}
+
+footer>#footer_div>div{
+    position: absolute;
+    left: calc(50% - 100px);
+
+}
+
+/*////////////////Project Pages Css/////////////////*/
+#project>.main>.cards>.cards_item {
+    height: 432px;
+    width: 397px;
+}
+#project>.main>.cards{
+    display: flex;
+    position: absolute;
+    /* left: 27%; */
+    justify-content: center;
+}
+
+
+#projectPage>section>div{
+    margin-left: 70px;
+    margin-top: 125px;
+    color: white;
+
+
+}
+
+
+#projectPage>section>div>#project-1{
+    display: flex;
+    justify-content:start;
+}
+
+
+#projectPage>section>div>#project2{
+    display: flex;
+    justify-content:end;
+}
+#projectPage>section>div>#project3{
+    display: flex;
+    justify-content:start;
+}
+#projectPage>section>div>#project4{
+    display: flex;
+    justify-content:end;
+}
+
+.project-descriptionL {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+ /* Adjust the margin as needed */
+}
+
+.project-description {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 70vw;
+
+}
+
+[name=pgpic]{
+    width: 500px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.project a {
+    margin-bottom: 10px;
+}
+
+.project-descriptionL {
+    margin: 0;
+}
+#pg{
+    border: 1px solid black;
+}
+
+/*///////////////////////////////*/
+
+#ag2>a>button {
+    margin-top: 12.2px;
+    width: 104px;
+    display: inline-block;
+}
+#ag3>a>button {
+    margin-top: 9.2px;
+    width: 104px;
+    display: inline-block;
+}
+#ag4>a>button{
+    margin-top: 8.2px;
+    width: 104px;
+    display: inline-block;
+}
+
+.card_content {
+    width: 100%;
+    height: 105%;
+}
+
+#Assigment>.main>.cards{
+    position: absolute;
+    bottom: -1577%;
+}
+
+#Assigment>div{
+    position: relative;
+    top: 1848px;
+}
+#Assigment>div>div{
+
+
+    width: 1250px;
+    height: 240px;
+
+    animation-name: assigmentDiv;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+
+
+
+
+
+/*///////////////////////////Gallery Page Css//////////////////////////*/
+
+
+#gallery{
+    position: relative;
+    top: 1916px;
+    z-index: 99999;
+
+}
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8{
+    width: 20px;
+}
+
+.gallery{
+    position: relative;
+    top: 1922px;
+}
+
+#imagesDiv{
+    width: 1329px;
+    position: relative;
+    top: 320px;
+    left: 22vh;
+
+}
+#gallery>#img1,#img2,#img3{
+   margin-top: 125px;
+}
+#gallery>#img1,#img4,#img7{
+    margin-left: 160px;
+}
+
+/*//////////////////////////Contact Us Page Css////////////////*/
+
+#contactUsPage{
+    position: relative;
+    margin-top: 2098px;
+}
+
+
+#form{
+    color: white;
+}
+#contactUsPage>#form>#txtFieldSet{
+    width: 770px;
+    position: relative;
+   left: 160px;
+    /*border: 2px solid red;*/
+    size: 45px;
+}
+#contactUsPage>#form>#txtFieldSet>form>h3{
+    position: relative;
+    bottom: 20px;
+    left: 1px;
+    font-size: 29px;
+}
+
+#contactUsPage>#form>#txtFieldSet>form>label{
+    font-size: 26px;
+}
+#contactUsPage>#form>#txtFieldSet>form>input{
+    position: relative;
+    width: 800px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    left: 45px;
+}
+#contact{
+    position: relative;
+   left: 41px;
+}
+#massage{
+    position: relative;
+    width: 690px;
+    height: 250px;
+    border-radius: 5px;
+    left: 41px;
+}
+#btnSubmit{
+        position: relative;
+        left: 746px;
+        bottom: 45px;
+        width: 100px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#contactFooter {
+    height: 250px;
+    margin: -16px;
+    bottom: 45px;
+    background-color: #0E144C;
+}
+#mobile_navi{
+    display: none;
+}
+
+#contactPgeSocialLinks{
+    text-align: center;
+    margin-top: -111px;
+}
+
+#mail_contact{
+    right: 200px;
+    position: relative;
+    text-align: end;
+    bottom:60px;
+}
+
+#dinildamsith52_gmail_com{
+    position: relative;
+    left: 95px;
+}
+
+#number{
+    position: relative;
+    left: 23px;
+}
+#contactFooter>footer{
+    position: relative;
+    top: -100px;
+}
+#address{
+    position: relative;
+    top: 126px;
+    left: 5%;
+}
+#end{
+    position: relative;
+    top: 196px;
+    left: 10px;
+}
+
+
+/*//////////////     Media Quary     ////////////////////*/
+
+
+/*min width  kiyane e gant wada wadi unoth me style */
+/*ekek apply wenen*/
+
+
+/*max width kiyane e gant wada adunm apply wena*/
+
+
+
+
